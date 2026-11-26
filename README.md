@@ -1,0 +1,2 @@
+# gonsadajob_platformproject
+University notification personalization service
