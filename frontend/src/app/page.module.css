@@ -1,0 +1,653 @@
+
+.page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  color: #1e293b;
+  font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+}
+
+.page * {
+  box-sizing: border-box;
+}
+
+.page button,
+.page input,
+.page select {
+  font: inherit;
+}
+
+.page button {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 42px;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  background: #315bea;
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: -1.5px;
+}
+
+.brand p {
+  margin: 3px 0 0;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.navigation button {
+  border: none;
+  border-radius: 9px;
+  padding: 11px 18px;
+  background: transparent;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navigation button:hover,
+.navigation .active {
+  background: #edf2ff;
+  color: #315bea;
+}
+
+.demo {
+  background: #f1f5f9;
+  color: #64748b;
+  border-radius: 20px;
+  padding: 8px 14px;
+  font-size: 12px;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 26px;
+  max-width: 1600px;
+  margin: auto;
+  padding: 30px;
+  align-items: stretch;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 24px 20px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #315bea;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+.taskSection h2 {
+  margin: 0 0 10px;
+  font-size: 21px;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #64748b;
+}
+
+.progressInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.progressInfo strong {
+  color: #315bea;
+}
+
+.progressTrack {
+  height: 8px;
+  background: #e8edf5;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  border-radius: 20px;
+  background: #315bea;
+  transition: width 0.3s ease;
+}
+
+.taskCount {
+  margin: 10px 0 22px;
+  color: #94a3b8;
+  font-size: 12px;
+  text-align: right;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 15px 12px;
+  background: #f8fafc;
+  border: 1px solid #e7edf4;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.task input {
+  width: 17px;
+  height: 17px;
+  accent-color: #315bea;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.task span {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.task small {
+  display: block;
+  margin-top: 7px;
+  font-size: 11px;
+  color: #64748b;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #e8eeff;
+  color: #315bea;
+  font-weight: 700;
+}
+
+.account strong {
+  font-size: 14px;
+}
+
+.account p {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 5px;
+}
+
+.content {
+  min-width: 0;
+}
+
+.welcome {
+  padding: 32px;
+  border-radius: 18px;
+  background: linear-gradient(120deg, #183d9b, #5274ed);
+  color: white;
+  margin-bottom: 28px;
+}
+
+.welcome .eyebrow {
+  color: #c7d5ff;
+}
+
+.welcome h2 {
+  margin: 0 0 12px;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+}
+
+.welcome p:last-child {
+  margin: 0;
+  color: #e0e7ff;
+  font-size: 14px;
+}
+
+.noticeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.noticeHeader h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.noticeHeader p,
+.filterHeader p {
+  margin: 7px 0 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.search {
+  width: 240px;
+  max-width: 100%;
+  background: white;
+  color: #1e293b;
+  border: 1px solid #dce3ed;
+  border-radius: 10px;
+  padding: 12px 15px;
+  outline: none;
+}
+
+.search:focus {
+  border-color: #315bea;
+}
+
+.noticeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.noticeCard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 245px;
+  background: white;
+  border: 1px solid #e1e7ef;
+  border-radius: 14px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.noticeCard:hover {
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.08);
+  transform: translateY(-2px);
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 6px;
+  background: #eaf0ff;
+  color: #315bea;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.category[data-category="장학"] {
+  background: #e4f6ec;
+  color: #198754;
+}
+
+.category[data-category="행사"] {
+  background: #f2eaff;
+  color: #805ad5;
+}
+
+.category[data-category="기숙사"] {
+  background: #fff3df;
+  color: #b7791f;
+}
+
+.category[data-category="취업"] {
+  background: #ffe8ed;
+  color: #be4565;
+}
+
+.bookmark {
+  border: none;
+  background: none;
+  color: #e2a526;
+  font-size: 25px !important;
+}
+
+.noticeCard h3 {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.4px;
+}
+
+.aiLabel {
+  color: #315bea;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.summary {
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 8px 0 16px;
+  flex: 1;
+}
+
+.cardMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: #94a3b8;
+  font-size: 11px;
+  margin-top: auto;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  border-top: 1px solid #edf0f5;
+  padding-top: 13px;
+  margin-top: 13px;
+}
+
+.cardBottom strong {
+  color: #dc5262;
+  font-size: 12px;
+}
+
+.cardBottom button {
+  border: none;
+  background: none;
+  color: #315bea;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.detail {
+  margin-top: 15px;
+  padding: 12px;
+  background: #f4f7ff;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.empty {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+  border-radius: 14px;
+  color: #64748b;
+}
+
+.filterPanel {
+  margin-top: 24px;
+  padding: 24px;
+  border-radius: 15px;
+  border: 1px solid #e2e8f0;
+  background: white;
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.filterHeader h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.filterHeader button {
+  border: 1px solid #dce3ed;
+  background: #ffffff;
+  color: #64748b;
+  padding: 8px 14px;
+  border-radius: 7px;
+  font-size: 12px;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+  margin-top: 22px;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.filters select {
+  width: 100%;
+  border: 1px solid #dce3ed;
+  border-radius: 8px;
+  padding: 11px;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.filters select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.footer {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 11px;
+  line-height: 1.8;
+  margin-top: 25px;
+}
+
+@media (max-width: 1100px) {
+  .dashboard {
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 18px;
+    padding: 20px;
+  }
+
+  .noticeGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 18px;
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .noticeGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .noticeHeader {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .welcome {
+    padding: 24px;
+  }
+
+  .welcome h2 {
+    font-size: 24px;
+  }
+}
+
+/* 개인화 프로필 표시 영역 */
+
+.profileBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  margin-bottom: 25px;
+  background: #ffffff;
+  border: 1px solid #dce5ff;
+  border-left: 4px solid #315bea;
+  border-radius: 12px;
+}
+
+.profileBanner strong {
+  font-size: 15px;
+  color: #1e293b;
+}
+
+.profileBanner p {
+  margin-top: 7px;
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.profileBanner a {
+  flex-shrink: 0;
+  color: #315bea;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.campusLabel {
+  color: #64748b;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.filterActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.account a {
+  color: #315bea;
+}
+
+.account a:hover,
+.profileBanner a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1101px) {
+  .filters {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 750px) {
+  .profileBanner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filterHeader {
+    flex-wrap: wrap;
+  }
+}
+.cardBottom a {
+  color: #315bea;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.cardBottom a:hover {
+  text-decoration: underline;
+}
+
+/* 페이지 이동 메뉴 */
+
+.navigation a {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9px;
+  padding: 11px 18px;
+  background: transparent;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  background: #edf2ff;
+  color: #315bea;
+}
