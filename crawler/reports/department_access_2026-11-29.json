@@ -1,0 +1,2761 @@
+{
+  "checked_at": "2026-11-29",
+  "scope": "공식 학부 단과대학 소개의 학과·학부·전공 카드",
+  "departments": [
+    {
+      "campus": "죽전",
+      "college": "문과대학",
+      "department": "국어국문학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/humanities",
+      "homepage_url": "https://cms.dankook.ac.kr/web/koreanlitnlang",
+      "boards": [
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/koreanlitnlang/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/koreanlitnlang/-7",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "문과대학",
+      "department": "사학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/humanities",
+      "homepage_url": "https://cms.dankook.ac.kr/web/history",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/history/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/history/-17",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "문과대학",
+      "department": "철학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/humanities",
+      "homepage_url": "https://cms.dankook.ac.kr/web/philosophy",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/philosophy/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "문과대학",
+      "department": "영미인문학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/humanities",
+      "homepage_url": "https://cms.dankook.ac.kr/web/bahumanities",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/bahumanities/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/bahumanities/-11",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "법과대학",
+      "department": "법학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/law",
+      "homepage_url": "https://law.dankook.ac.kr/web/law",
+      "boards": [
+        {
+          "name": "법과대학 공지",
+          "list_url": "https://law.dankook.ac.kr/web/law/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업게시판",
+          "list_url": "https://law.dankook.ac.kr/web/law/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사회과학대학",
+      "department": "정치외교학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/social_sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/polisci",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/polisci/%EC%9E%AC%ED%95%99%EC%83%9D1",
+          "status": "LOGIN_REQUIRED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "LOGIN_REQUIRED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사회과학대학",
+      "department": "행정학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/social_sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkupa",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkupa/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사회과학대학",
+      "department": "도시계획·부동산학부 도시지역계획학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/social_sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/urban-real",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/urban-real/-7",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/urban-real/-8",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학",
+          "list_url": "https://cms.dankook.ac.kr/web/urban-real/%EC%9E%A5%ED%95%99",
+          "status": "EMPTY",
+          "observed_rows": 1
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사회과학대학",
+      "department": "도시계획·부동산학부 부동산학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/social_sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/urban-real",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/urban-real/-7",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/urban-real/-8",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학",
+          "list_url": "https://cms.dankook.ac.kr/web/urban-real/%EC%9E%A5%ED%95%99",
+          "status": "EMPTY",
+          "observed_rows": 1
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사회과학대학",
+      "department": "미디어커뮤니케이션학부 저널리즘전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/social_sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/comm",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/comm/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 12
+        },
+        {
+          "name": "취업공지",
+          "list_url": "https://cms.dankook.ac.kr/web/comm/-14",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사회과학대학",
+      "department": "미디어커뮤니케이션학부 영상콘텐츠전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/social_sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/comm",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/comm/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 12
+        },
+        {
+          "name": "취업공지",
+          "list_url": "https://cms.dankook.ac.kr/web/comm/-14",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사회과학대학",
+      "department": "미디어커뮤니케이션학부 광고홍보전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/social_sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/comm",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/comm/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 12
+        },
+        {
+          "name": "취업공지",
+          "list_url": "https://cms.dankook.ac.kr/web/comm/-14",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사회과학대학",
+      "department": "상담학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/social_sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/counseling",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/counseling/notice_c",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "경영경제대학",
+      "department": "경제학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/business_n_economics",
+      "homepage_url": "https://cms.dankook.ac.kr/web/econ",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-5",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-20",
+          "status": "AVAILABLE",
+          "observed_rows": 15
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "경영경제대학",
+      "department": "무역학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/business_n_economics",
+      "homepage_url": "https://cms.dankook.ac.kr/web/trade",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/trade/-5",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/trade/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학과 장학공지",
+          "list_url": "https://cms.dankook.ac.kr/web/trade/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학과 취업공지",
+          "list_url": "https://cms.dankook.ac.kr/web/trade/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 3
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "경영경제대학",
+      "department": "경영학부 경영학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/business_n_economics",
+      "homepage_url": "https://cms.dankook.ac.kr/web/bu",
+      "boards": [
+        {
+          "name": "학사 공지사항(학부)",
+          "list_url": "https://cms.dankook.ac.kr/web/bu/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/bu/-14",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "기타 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/bu/-2",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "경영경제대학",
+      "department": "경영학부 회계학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/business_n_economics",
+      "homepage_url": "https://cms.dankook.ac.kr/web/acc",
+      "boards": [
+        {
+          "name": "학사 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학정보",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-7",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-8",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "단현재 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-17",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "기타 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "경영경제대학",
+      "department": "산업경영학과(야)",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/business_n_economics",
+      "homepage_url": "https://cms.dankook.ac.kr/web/industrialm",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/industrialm/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "공과대학",
+      "department": "전자전기공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/engineering",
+      "homepage_url": "https://cms.dankook.ac.kr/web/eee",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/eee/-51",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원공지",
+          "list_url": "https://cms.dankook.ac.kr/web/eee/-52",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/eee/-53",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "공과대학",
+      "department": "융합반도체공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/engineering",
+      "homepage_url": "https://cms.dankook.ac.kr/web/sce",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/sce/-1",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/sce/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "공과대학",
+      "department": "고분자시스템공학부 고분자공학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/engineering",
+      "homepage_url": "https://cms.dankook.ac.kr/web/polymer",
+      "boards": [
+        {
+          "name": "학부공지",
+          "list_url": "https://cms.dankook.ac.kr/web/polymer/-67",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/polymer/-5",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "채용공고",
+          "list_url": "https://cms.dankook.ac.kr/web/polymer/-1",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "공과대학",
+      "department": "고분자시스템공학부 융합소재공학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/engineering",
+      "homepage_url": "https://cms.dankook.ac.kr/web/fiber",
+      "boards": [
+        {
+          "name": "학부 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/fiber/-16",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/fiber/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        },
+        {
+          "name": "채용정보/행사/특강",
+          "list_url": "https://cms.dankook.ac.kr/web/fiber/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "공과대학",
+      "department": "인프라건설공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/engineering",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkucee",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkucee/notice",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업 마당(재학생 전용)",
+          "list_url": "https://cms.dankook.ac.kr/web/dkucee/-44",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업·공모전·참여",
+          "list_url": "https://cms.dankook.ac.kr/web/dkucee/careers",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "공과대학",
+      "department": "기계공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/engineering",
+      "homepage_url": "https://cms.dankook.ac.kr/web/me",
+      "boards": [
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/me/-79",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/me/-35",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/me/q-a",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "공과대학",
+      "department": "화학공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/engineering",
+      "homepage_url": "https://cms.dankook.ac.kr/web/chem",
+      "boards": [
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/chem/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "장학금 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/chem/-48",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/chem/-49",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/chem/-14",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "공과대학",
+      "department": "건축학부 건축학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/engineering",
+      "homepage_url": "https://cms.dankook.ac.kr/web/archi",
+      "boards": [
+        {
+          "name": "건축학과 학사",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "건축학전공 장학",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "건축학과 대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "건축공학과 학사",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-24",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "건축공학과 대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "공과대학",
+      "department": "건축학부 건축공학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/engineering",
+      "homepage_url": "https://cms.dankook.ac.kr/web/archi",
+      "boards": [
+        {
+          "name": "건축학과 학사",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "건축학전공 장학",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "건축학과 대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "건축공학과 학사",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-24",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "건축공학과 대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "AI융합대학",
+      "department": "소프트웨어학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sw_convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/sw",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/sw/-1",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/sw/-19",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "AI융합대학",
+      "department": "컴퓨터공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sw_convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/ace",
+      "boards": [
+        {
+          "name": "취업게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/ace/-39",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "일반취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/ace/-40",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/ace/notice",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "AI융합대학",
+      "department": "통계데이터사이언스학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sw_convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkustat",
+      "boards": [
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dkustat/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "채용정보",
+          "list_url": "https://cms.dankook.ac.kr/web/dkustat/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "AI융합대학",
+      "department": "사이버보안학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sw_convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/indsec",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/indsec/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학",
+          "list_url": "https://cms.dankook.ac.kr/web/indsec/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 14
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/indsec/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "AI융합대학",
+      "department": "인공지능학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sw_convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/ai",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/ai/-41",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "채용공지",
+          "list_url": "https://cms.dankook.ac.kr/web/ai/-43",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "AI융합대학",
+      "department": "SW융합학부",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sw_convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/swcon",
+      "boards": [
+        {
+          "name": "학부공지",
+          "list_url": "https://cms.dankook.ac.kr/web/swcon/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대외활동 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/swcon/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "채용정보",
+          "list_url": "https://cms.dankook.ac.kr/web/swcon/-14",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "AI융합대학",
+      "department": "AI건축융합학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sw_convergence",
+      "homepage_url": "https://ai-architecture-website.pages.dev/",
+      "boards": [],
+      "status": "NO_NOTICE_LINK",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사범대학",
+      "department": "한문교육과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/education",
+      "homepage_url": "https://cms.dankook.ac.kr/web/hankyo",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/hankyo/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        },
+        {
+          "name": "취업자료",
+          "list_url": "https://cms.dankook.ac.kr/web/hankyo/-34",
+          "status": "EMPTY",
+          "observed_rows": 2
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사범대학",
+      "department": "특수교육과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/education",
+      "homepage_url": "https://cms.dankook.ac.kr/web/specialedu",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/specialedu/%ED%95%99%EA%B3%BC-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/specialedu/%ED%95%99%EC%83%9D%ED%9A%8C-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사범대학",
+      "department": "수학교육과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/education",
+      "homepage_url": "https://cms.dankook.ac.kr/web/mathedu/home",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/mathedu/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업공고",
+          "list_url": "https://cms.dankook.ac.kr/web/mathedu/-19",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/mathedu/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 3
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사범대학",
+      "department": "과학교육과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/education",
+      "homepage_url": "https://cms.dankook.ac.kr/web/sciedu",
+      "boards": [
+        {
+          "name": "대학원 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/sciedu/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 2
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/sciedu/%EB%8C%80%ED%95%99%EC%9B%90-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "EMPTY",
+          "observed_rows": 2
+        },
+        {
+          "name": "안내 및 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/sciedu/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "비교과 홍보 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/sciedu/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사범대학",
+      "department": "체육교육과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/education",
+      "homepage_url": "https://cms.dankook.ac.kr/web/danche",
+      "boards": [
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/danche/-4",
+          "status": "EMPTY",
+          "observed_rows": 2
+        },
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/danche/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "사범대학",
+      "department": "교직교육과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/education",
+      "homepage_url": "https://dankook.ac.kr/web/teachertraining",
+      "boards": [
+        {
+          "name": "공지 및 Q&A",
+          "list_url": "https://dankook.ac.kr/web/teachertraining/-q-a",
+          "status": "EMPTY",
+          "observed_rows": 2
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "도예과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/ceramicarts",
+      "boards": [
+        {
+          "name": "학사공지",
+          "list_url": "https://cms.dankook.ac.kr/web/ceramicarts/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 5
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/ceramicarts/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "디자인학부 커뮤니케이션디자인전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://www.dankook.ac.kr/web/communicationdesign",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://www.dankook.ac.kr/web/communicationdesign/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "디자인학부 패션산업디자인전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/fashion",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/fashion/-6",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "공연영화학부 연극전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/performance-film",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/performance-film/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "공연영화학부 영화전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/performance-film",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/performance-film/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "공연영화학부 뮤지컬전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/performance-film",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/performance-film/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "무용과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dance",
+      "boards": [
+        {
+          "name": "학사공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dance/-16",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dance/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "음악학부 피아노전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/piano",
+      "boards": [],
+      "status": "NO_NOTICE_LINK",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "음악학부 관현악전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/orchestral-instrument",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/orchestral-instrument/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "음악학부 성악전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/vocalmusic",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/vocalmusic/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "음악학부 작곡전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/composition",
+      "boards": [],
+      "status": "NO_NOTICE_LINK",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "음악·예술대학",
+      "department": "음악학부 국악전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/koreamusic",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/koreamusic/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "프리무스국제대학",
+      "department": "국제경영학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/primus",
+      "homepage_url": "https://cms.dankook.ac.kr/web/ib",
+      "boards": [
+        {
+          "name": "공지사항/Notice",
+          "list_url": "https://cms.dankook.ac.kr/web/ib/notices",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        },
+        {
+          "name": "채용정보/Recruitment Board",
+          "list_url": "https://cms.dankook.ac.kr/web/ib/career-opportunities",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "프리무스국제대학",
+      "department": "모바일시스템공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/primus",
+      "homepage_url": "https://cms.dankook.ac.kr/web/mobilesystems",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/mobilesystems/-8",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/mobilesystems/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "죽전",
+      "college": "프리무스국제대학",
+      "department": "바이오소재융합공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/primus",
+      "homepage_url": null,
+      "boards": [],
+      "status": "HOMEPAGE_NOT_LISTED",
+      "homepage_status": "HOMEPAGE_NOT_LISTED",
+      "shared_college_notice": "https://www.dankook.ac.kr/ko/web/primus/notice"
+    },
+    {
+      "campus": "죽전",
+      "college": "프리무스국제대학",
+      "department": "한국학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/primus",
+      "homepage_url": null,
+      "boards": [],
+      "status": "HOMEPAGE_NOT_LISTED",
+      "homepage_status": "HOMEPAGE_NOT_LISTED",
+      "shared_college_notice": "https://www.dankook.ac.kr/ko/web/primus/notice"
+    },
+    {
+      "campus": "죽전",
+      "college": "프리무스국제대학",
+      "department": "연기영상예술학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/primus",
+      "homepage_url": null,
+      "boards": [],
+      "status": "HOMEPAGE_NOT_LISTED",
+      "homepage_status": "HOMEPAGE_NOT_LISTED",
+      "shared_college_notice": "https://www.dankook.ac.kr/ko/web/primus/notice"
+    },
+    {
+      "campus": "죽전",
+      "college": "프리무스국제대학",
+      "department": "글로벌기초교육학부",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/primus",
+      "homepage_url": "https://cms.dankook.ac.kr/web/gce",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/gce/-41",
+          "status": "AVAILABLE",
+          "observed_rows": 3
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "아시아중동학부 중국학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/china",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/china/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "아시아중동학부 일본학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/japanese",
+      "boards": [
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/japanese/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/japanese/-16",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "아시아중동학부 몽골학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/mongol",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/mongol/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "아시아중동학부 중동학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/middleeasternstudies",
+      "boards": [
+        {
+          "name": "공지게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/middleeasternstudies/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/middleeasternstudies/-19",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "아시아중동학부 베트남학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/vietnam",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/vietnam/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/vietnam/-14",
+          "status": "AVAILABLE",
+          "observed_rows": 14
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "유럽중남미학부 독일학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/german",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/german/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "유럽중남미학부 프랑스학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkfrance",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkfrance/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/dkfrance/q-a-",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "유럽중남미학부 스페인중남미학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/spain",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/spain/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "유럽중남미학부 러시아학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/russia",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/russia/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "주요학사공지",
+          "list_url": "https://cms.dankook.ac.kr/web/russia/q-a-",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/russia/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 14
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "유럽중남미학부 포르투갈브라질학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/portuguese",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/portuguese/-2",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "영어과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/english",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/english/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        },
+        {
+          "name": "채용게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/english/q-a-",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "외국어대학",
+      "department": "글로벌한국어과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+      "homepage_url": "https://cms.dankook.ac.kr/web/globalhankook",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/globalhankook/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "과학기술대학",
+      "department": "수학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/science-n-technology",
+      "homepage_url": "https://cms.dankook.ac.kr/web/mathematics",
+      "boards": [
+        {
+          "name": "수학과게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/mathematics/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        },
+        {
+          "name": "학생회게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/mathematics/-7",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "과학기술대학",
+      "department": "물리학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/science-n-technology",
+      "homepage_url": "https://cms.dankook.ac.kr/web/physics",
+      "boards": [
+        {
+          "name": "학사 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/physics/-20",
+          "status": "AVAILABLE",
+          "observed_rows": 9
+        },
+        {
+          "name": "홍보 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/physics/-5",
+          "status": "AVAILABLE",
+          "observed_rows": 0
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "과학기술대학",
+      "department": "화학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/science-n-technology",
+      "homepage_url": "https://cms.dankook.ac.kr/web/chemistry",
+      "boards": [
+        {
+          "name": "학부 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/chemistry/-1",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/chemistry/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "과학기술대학",
+      "department": "식품영양학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/science-n-technology",
+      "homepage_url": "https://cms.dankook.ac.kr/web/foodnutrition",
+      "boards": [
+        {
+          "name": "학부 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "일반대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-20",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "교육대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업",
+          "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "과학기술대학",
+      "department": "신소재공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/science-n-technology",
+      "homepage_url": "https://cms.dankook.ac.kr/web/mse",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/mse/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "장학&취업 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/mse/-25",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "과학기술대학",
+      "department": "에너지공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/science-n-technology",
+      "homepage_url": "https://cms.dankook.ac.kr/web/energy",
+      "boards": [
+        {
+          "name": "학부 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/energy/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/energy/-11",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학/취업 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/energy/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 13
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "과학기술대학",
+      "department": "경영공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/science-n-technology",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkme",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkme/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업/공모/장학",
+          "list_url": "https://cms.dankook.ac.kr/web/dkme/-16",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "과학기술대학",
+      "department": "제약공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/science-n-technology",
+      "homepage_url": "https://cms.dankook.ac.kr/web/pharm",
+      "boards": [
+        {
+          "name": "게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/pharm/-1",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "바이오융합대학",
+      "department": "생명공학부 식량생명공학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/crops",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/crops/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 7
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "바이오융합대학",
+      "department": "생명공학부 동물생명공학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/animal",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/animal/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "바이오융합대학",
+      "department": "생명공학부 환경원예학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkuhort",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkuhort/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/dkuhort/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 15
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "바이오융합대학",
+      "department": "생명공학부 녹지조경학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/landscape",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/landscape/notice",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "바이오융합대학",
+      "department": "의생명과학부 의생명시스템학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/biomedical20",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/biomedical20/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 10
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "바이오융합대학",
+      "department": "의생명과학부 생명과학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/biology",
+      "boards": [
+        {
+          "name": "공지사",
+          "list_url": "https://cms.dankook.ac.kr/web/biology/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "바이오융합대학",
+      "department": "의생명과학부 미생물학전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/microbiology",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/microbiology/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "장학 및 취업",
+          "list_url": "https://cms.dankook.ac.kr/web/microbiology/%EC%9E%A5%ED%95%99-%EB%B0%8F-%EC%B7%A8%EC%97%85",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "바이오융합대학",
+      "department": "식품공학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/food",
+      "boards": [
+        {
+          "name": "공지게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/food/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "바이오융합대학",
+      "department": "코스메디컬소재학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+      "homepage_url": "https://cms.dankook.ac.kr/web/cosmedmaterials",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/cosmedmaterials/affairs",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "예술대학",
+      "department": "미술학부 공예전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/craft",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/craft/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 3
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "예술대학",
+      "department": "미술학부 동양화전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/oriental",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/oriental/-15",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "예술대학",
+      "department": "미술학부 서양화전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/fineart",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/fineart/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "예술대학",
+      "department": "미술학부 조소전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/joso",
+      "boards": [
+        {
+          "name": "공지게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/joso/-10",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "예술대학",
+      "department": "문예창작과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkcw/%EC%9D%BC%EB%B0%98%EC%86%8C%EA%B0%9C",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkcw/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "예술대학",
+      "department": "뉴뮤직학부 뮤직테크놀러지전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/newmusicdku",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/newmusicdku/-5",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "예술대학",
+      "department": "뉴뮤직학부 재즈퍼포먼스전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/jazzperformance",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/jazzperformance/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "예술대학",
+      "department": "뉴뮤직학부 싱어송라이팅전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/arts",
+      "homepage_url": "https://cms.dankook.ac.kr/web/singersongwriting",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/singersongwriting/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "스포츠과학대학",
+      "department": "생활체육학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sports-science",
+      "homepage_url": "https://cms.dankook.ac.kr/web/sports",
+      "boards": [
+        {
+          "name": "채용(취업)공고",
+          "list_url": "https://cms.dankook.ac.kr/web/sports/%EC%B1%84%EC%9A%A9-%EC%B7%A8%EC%97%85-%EA%B3%B5%EA%B3%A0",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/sports/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "스포츠과학대학",
+      "department": "스포츠경영학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sports-science",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dsm",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dsm/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "스포츠과학대학",
+      "department": "국제스포츠학부 운동처방재활전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sports-science",
+      "homepage_url": "https://cms.dankook.ac.kr/web/sportsscience",
+      "boards": [
+        {
+          "name": "채용 공고",
+          "list_url": "https://cms.dankook.ac.kr/web/sportsscience/%EC%B1%84%EC%9A%A9-%EA%B3%B5%EA%B3%A0",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/sportsscience/-10",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "스포츠과학대학",
+      "department": "국제스포츠학부 국제스포츠전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sports-science",
+      "homepage_url": "https://cms.dankook.ac.kr/web/int_sports",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/int_sports/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "스포츠과학대학",
+      "department": "국제스포츠학부 태권도전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sports-science",
+      "homepage_url": "https://cms.dankook.ac.kr/web/taekwondo",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/taekwondo/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "스포츠과학대학",
+      "department": "국제스포츠학부 골프전공",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/sports-science",
+      "homepage_url": null,
+      "boards": [],
+      "status": "HOMEPAGE_NOT_LISTED",
+      "homepage_status": "HOMEPAGE_NOT_LISTED"
+    },
+    {
+      "campus": "천안",
+      "college": "의과대학",
+      "department": "의예과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/medicine",
+      "homepage_url": "http://med.dankook.ac.kr/",
+      "boards": [
+        {
+          "name": "전체공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-26",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "교수공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-27",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-28",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-29",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "의과대학",
+      "department": "의학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/medicine",
+      "homepage_url": "http://med.dankook.ac.kr/",
+      "boards": [
+        {
+          "name": "전체공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-26",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "교수공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-27",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-28",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-29",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "공공인재대학",
+      "department": "공공정책학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/public-service",
+      "homepage_url": "https://cms.dankook.ac.kr/web/publicadm",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/publicadm/-3",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/publicadm/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "공공인재대학",
+      "department": "공공정책학과(야)",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/public-service",
+      "homepage_url": "https://cms.dankook.ac.kr/web/publicadm",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/publicadm/-3",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/publicadm/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "공공인재대학",
+      "department": "사회복지학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/public-service",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkwelfare",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkwelfare/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "공공인재대학",
+      "department": "식품자원경제학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/public-service",
+      "homepage_url": "https://cms.dankook.ac.kr/web/ere",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/ere/-17",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "BOARD_NOT_DISPLAYED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "공공인재대학",
+      "department": "해병대군사학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/public-service",
+      "homepage_url": "https://cms.dankook.ac.kr/web/rokmcms",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/rokmcms/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "보건과학대학",
+      "department": "임상병리학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/health-sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/biomedical",
+      "boards": [
+        {
+          "name": "자유게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/biomedical/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "보건과학대학",
+      "department": "물리치료학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/health-sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/physical_therapy",
+      "boards": [
+        {
+          "name": "자유게시판(장학 공지 게시)",
+          "list_url": "https://cms.dankook.ac.kr/web/physical_therapy/-16",
+          "status": "AVAILABLE",
+          "observed_rows": 12
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "보건과학대학",
+      "department": "보건행정학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/health-sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/healthadmin",
+      "boards": [
+        {
+          "name": "보건행정게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/healthadmin/-16",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "채용공고",
+          "list_url": "https://cms.dankook.ac.kr/web/healthadmin/-19",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/healthadmin/-1",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "보건과학대학",
+      "department": "치위생학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/health-sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dentalhygiene",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dentalhygiene/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/dentalhygiene/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 13
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "보건과학대학",
+      "department": "심리학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/health-sciences",
+      "homepage_url": "https://cms.dankook.ac.kr/web/psychology",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/psychology/-11",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ],
+      "status": "ACCESS_DENIED",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "간호대학",
+      "department": "간호학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/nursing",
+      "homepage_url": "https://cms.dankook.ac.kr/web/nursing",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/q-a-",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-53",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-50",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "보건복지대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-51",
+          "status": "AVAILABLE",
+          "observed_rows": 9
+        }
+      ],
+      "status": "AVAILABLE",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "치과대학",
+      "department": "치의예과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/dentistry",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dentistry",
+      "boards": [
+        {
+          "name": "학사공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/-17",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생회 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/%ED%95%99%EC%83%9D%ED%9A%8C-%EA%B2%8C%EC%8B%9C%ED%8C%901",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/-33",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "치과대학",
+      "department": "치의학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/dentistry",
+      "homepage_url": "https://cms.dankook.ac.kr/web/dentistry",
+      "boards": [
+        {
+          "name": "학사공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/-17",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생회 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/%ED%95%99%EC%83%9D%ED%9A%8C-%EA%B2%8C%EC%8B%9C%ED%8C%901",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/-33",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    },
+    {
+      "campus": "천안",
+      "college": "약학대학",
+      "department": "약학과",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/pharmacy",
+      "homepage_url": "https://cms.dankook.ac.kr/web/pharmacy",
+      "boards": [
+        {
+          "name": "학부 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-20",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/%EB%8C%80%ED%95%99%EC%9B%90-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "실무실습 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-10",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        },
+        {
+          "name": "취업ㆍ모집 공고",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "학생회 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        }
+      ],
+      "status": "PARTIAL",
+      "homepage_status": "AVAILABLE",
+      "checked_at": "2026-11-29"
+    }
+  ],
+  "method": "공식 대학 안내 24개 페이지의 학과 카드 전수 확인 + 연결된 고유 홈페이지 104곳과 공지 후보 링크 234개 브라우저 열람. HTTP 크롤러의 robots/상세 접근 성공을 의미하지 않음. 활성 후보 161개 공개 글 링크/빈 목록 확인, 공통 교육단위 4개 추가 확인. 공개 상세 5개(CMS·법과대학·의과대학·프리무스·블로그형) 표본 확인.",
+  "status_labels": {
+    "AVAILABLE": "공개 목록 확인(robots 허용 여부와 상세 열람은 실행 시 별도 확인)",
+    "ACCESS_DENIED": "게시판 본문에 경고 접근 거부 표시",
+    "BOARD_NOT_DISPLAYED": "메뉴와 제목은 있으나 공개 게시판 본문 미표시",
+    "LOGIN_REQUIRED": "공지 링크가 통합 로그인 화면으로 이동",
+    "NO_NOTICE_LINK": "학과 홈페이지에서 공개 공지 링크를 찾지 못함",
+    "HOMEPAGE_NOT_LISTED": "공식 단과대학 소개에 학과 홈페이지 링크 없음"
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "server": {
+      "name": "단국대학교 홈페이지",
+      "base_url": "https://www.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "단국대학교 일반공지",
+    "list_url": "https://www.dankook.ac.kr/web/kor/-390",
+    "category_hint": "일반",
+    "crawl_interval_minutes": 60,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 퇴계혁신칼리지 공통 - 공통 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/tic/-12",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 율곡혁신칼리지 공통 - 공통 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/yic/-13",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[공통] 자유교양대학 공통 - 공통 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/liberalarts/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 www.dankook.ac.kr",
+      "base_url": "https://www.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 프리무스국제대학 공통 - 공통 공지",
+    "list_url": "https://www.dankook.ac.kr/ko/web/primus/notice",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  }
+]

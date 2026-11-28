@@ -1,0 +1,2739 @@
+[
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 국어국문학과 - 대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/koreanlitnlang/-9",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 국어국문학과 - 학과 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/koreanlitnlang/-7",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 사학과 - 학과 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/history/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 사학과 - 대학원 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/history/-17",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 철학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/philosophy/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 영미인문학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/bahumanities/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 영미인문학과 - 대학원 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/bahumanities/-11",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 law.dankook.ac.kr",
+      "base_url": "https://law.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 법학과 - 법과대학 공지",
+    "list_url": "https://law.dankook.ac.kr/web/law/-9",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 law.dankook.ac.kr",
+      "base_url": "https://law.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 법학과 - 취업게시판",
+    "list_url": "https://law.dankook.ac.kr/web/law/-13",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 행정학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/dkupa/-18",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 도시계획·부동산학부 도시지역계획학전공 외 1개 전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/urban-real/-7",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 도시계획·부동산학부 도시지역계획학전공 외 1개 전공 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/urban-real/-8",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 도시계획·부동산학부 도시지역계획학전공 외 1개 전공 - 장학",
+    "list_url": "https://cms.dankook.ac.kr/web/urban-real/%EC%9E%A5%ED%95%99",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 미디어커뮤니케이션학부 저널리즘전공 외 2개 전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/comm/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 상담학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/counseling/notice_c",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경제학과 - 학과 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/econ/-18",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경제학과 - 장학 정보",
+    "list_url": "https://cms.dankook.ac.kr/web/econ/-12",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경제학과 - 취업 정보",
+    "list_url": "https://cms.dankook.ac.kr/web/econ/-21",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경제학과 - 대학원 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/econ/-5",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경제학과 - 학생회 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/econ/-20",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 무역학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/trade/-5",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 무역학과 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/trade/-6",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 무역학과 - 학과 장학공지",
+    "list_url": "https://cms.dankook.ac.kr/web/trade/-9",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 무역학과 - 학과 취업공지",
+    "list_url": "https://cms.dankook.ac.kr/web/trade/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경영학부 경영학전공 - 학사 공지사항(학부)",
+    "list_url": "https://cms.dankook.ac.kr/web/bu/-6",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경영학부 경영학전공 - 장학 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/bu/-14",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경영학부 경영학전공 - 기타 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/bu/-2",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경영학부 회계학전공 - 학사 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/acc/-21",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경영학부 회계학전공 - 장학정보",
+    "list_url": "https://cms.dankook.ac.kr/web/acc/-7",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경영학부 회계학전공 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/acc/-8",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경영학부 회계학전공 - 학생회 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/acc/-13",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경영학부 회계학전공 - 단현재 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/acc/-17",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 경영학부 회계학전공 - 기타 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/acc/-22",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 산업경영학과(야) - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/industrialm/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 전자전기공학과 - 학과공지",
+    "list_url": "https://cms.dankook.ac.kr/web/eee/-51",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 전자전기공학과 - 대학원공지",
+    "list_url": "https://cms.dankook.ac.kr/web/eee/-52",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 전자전기공학과 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/eee/-53",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 융합반도체공학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/sce/-1",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 융합반도체공학과 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/sce/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 고분자시스템공학부 고분자공학전공 - 학부공지",
+    "list_url": "https://cms.dankook.ac.kr/web/polymer/-67",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 고분자시스템공학부 고분자공학전공 - 대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/polymer/-5",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 고분자시스템공학부 고분자공학전공 - 채용공고",
+    "list_url": "https://cms.dankook.ac.kr/web/polymer/-1",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 고분자시스템공학부 융합소재공학전공 - 학부 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/fiber/-16",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 고분자시스템공학부 융합소재공학전공 - 대학원 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/fiber/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 고분자시스템공학부 융합소재공학전공 - 채용정보/행사/특강",
+    "list_url": "https://cms.dankook.ac.kr/web/fiber/-22",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 인프라건설공학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/dkucee/notice",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 인프라건설공학과 - 취업 마당(재학생 전용)",
+    "list_url": "https://cms.dankook.ac.kr/web/dkucee/-44",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 인프라건설공학과 - 취업·공모전·참여",
+    "list_url": "https://cms.dankook.ac.kr/web/dkucee/careers",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 기계공학과 - 학과 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/me/-79",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 기계공학과 - 대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/me/-35",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 기계공학과 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/me/q-a",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 화학공학과 - 학과 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/chem/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 화학공학과 - 장학금 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/chem/-48",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 화학공학과 - 대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/chem/-49",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 화학공학과 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/chem/-14",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 건축학부 건축학전공 외 1개 전공 - 건축학과 학사",
+    "list_url": "https://cms.dankook.ac.kr/web/archi/-18",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 건축학부 건축학전공 외 1개 전공 - 건축학전공 장학",
+    "list_url": "https://cms.dankook.ac.kr/web/archi/-12",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 건축학부 건축학전공 외 1개 전공 - 건축학과 대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/archi/-21",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 건축학부 건축학전공 외 1개 전공 - 건축공학과 학사",
+    "list_url": "https://cms.dankook.ac.kr/web/archi/-24",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 건축학부 건축학전공 외 1개 전공 - 건축공학과 대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/archi/-22",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 소프트웨어학과 - 학과공지",
+    "list_url": "https://cms.dankook.ac.kr/web/sw/-1",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 소프트웨어학과 - 대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/sw/-19",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 컴퓨터공학과 - 취업게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/ace/-39",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 컴퓨터공학과 - 일반취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/ace/-40",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 컴퓨터공학과 - 게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/ace/notice",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 통계데이터사이언스학과 - 학과 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/dkustat/-6",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 통계데이터사이언스학과 - 채용정보",
+    "list_url": "https://cms.dankook.ac.kr/web/dkustat/-12",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 사이버보안학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/indsec/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 사이버보안학과 - 장학",
+    "list_url": "https://cms.dankook.ac.kr/web/indsec/-22",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 사이버보안학과 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/indsec/-12",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 인공지능학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/ai/-41",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 인공지능학과 - 채용공지",
+    "list_url": "https://cms.dankook.ac.kr/web/ai/-43",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] SW융합학부 - 학부공지",
+    "list_url": "https://cms.dankook.ac.kr/web/swcon/-6",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] SW융합학부 - 대외활동 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/swcon/-13",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] SW융합학부 - 채용정보",
+    "list_url": "https://cms.dankook.ac.kr/web/swcon/-14",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 한문교육과 - 학과 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/hankyo/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 한문교육과 - 취업자료",
+    "list_url": "https://cms.dankook.ac.kr/web/hankyo/-34",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 수학교육과 - 학과공지",
+    "list_url": "https://cms.dankook.ac.kr/web/mathedu/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 수학교육과 - 학생회 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/mathedu/-21",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 과학교육과 - 대학원 게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/sciedu/-21",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 과학교육과 - 대학원 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/sciedu/%EB%8C%80%ED%95%99%EC%9B%90-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 과학교육과 - 안내 및 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/sciedu/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 과학교육과 - 비교과 홍보 게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/sciedu/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 체육교육과 - 학생회 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/danche/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 dankook.ac.kr",
+      "base_url": "https://dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 교직교육과 - 공지 및 Q&A",
+    "list_url": "https://dankook.ac.kr/web/teachertraining/-q-a",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 도예과 - 학사공지",
+    "list_url": "https://cms.dankook.ac.kr/web/ceramicarts/-6",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 도예과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/ceramicarts/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 무용과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/dance/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 국제경영학과 - 공지사항/Notice",
+    "list_url": "https://cms.dankook.ac.kr/web/ib/notices",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 국제경영학과 - 채용정보/Recruitment Board",
+    "list_url": "https://cms.dankook.ac.kr/web/ib/career-opportunities",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 모바일시스템공학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/mobilesystems/-8",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 모바일시스템공학과 - 취업 정보",
+    "list_url": "https://cms.dankook.ac.kr/web/mobilesystems/-12",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[죽전] 글로벌기초교육학부 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/gce/-41",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 아시아중동학부 중국학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/china/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 아시아중동학부 일본학전공 - 학과 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/japanese/-6",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 아시아중동학부 몽골학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/mongol/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 아시아중동학부 중동학전공 - 공지게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/middleeasternstudies/-18",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 아시아중동학부 중동학전공 - 취업게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/middleeasternstudies/-19",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 아시아중동학부 베트남학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/vietnam/-13",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 아시아중동학부 베트남학전공 - 취업 정보",
+    "list_url": "https://cms.dankook.ac.kr/web/vietnam/-14",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 유럽중남미학부 프랑스학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/dkfrance/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 유럽중남미학부 러시아학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/russia/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 유럽중남미학부 러시아학전공 - 주요학사공지",
+    "list_url": "https://cms.dankook.ac.kr/web/russia/q-a-",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 유럽중남미학부 러시아학전공 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/russia/-6",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 유럽중남미학부 포르투갈브라질학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/portuguese/-2",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 영어과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/english/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 영어과 - 채용게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/english/q-a-",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 글로벌한국어과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/globalhankook/-13",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 수학과 - 수학과게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/mathematics/-21",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 물리학과 - 학사 게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/physics/-20",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 물리학과 - 홍보 게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/physics/-5",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 화학과 - 학부 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/chemistry/-1",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 화학과 - 대학원 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/chemistry/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 식품영양학과 - 학부 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 식품영양학과 - 일반대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-20",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 식품영양학과 - 교육대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-21",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 식품영양학과 - 취업",
+    "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-22",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 신소재공학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/mse/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 신소재공학과 - 장학&취업 정보",
+    "list_url": "https://cms.dankook.ac.kr/web/mse/-25",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 에너지공학과 - 학부 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/energy/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 에너지공학과 - 대학원 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/energy/-11",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 에너지공학과 - 장학/취업 공지",
+    "list_url": "https://cms.dankook.ac.kr/web/energy/-12",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 경영공학과 - 학과 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/dkme/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 경영공학과 - 취업/공모/장학",
+    "list_url": "https://cms.dankook.ac.kr/web/dkme/-16",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 생명공학부 식량생명공학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/crops/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 생명공학부 환경원예학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/dkuhort/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 생명공학부 환경원예학전공 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/dkuhort/-9",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 생명공학부 녹지조경학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/landscape/notice",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 의생명과학부 의생명시스템학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/biomedical20/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 의생명과학부 생명과학전공 - 공지사",
+    "list_url": "https://cms.dankook.ac.kr/web/biology/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 의생명과학부 미생물학전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/microbiology/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 의생명과학부 미생물학전공 - 장학 및 취업",
+    "list_url": "https://cms.dankook.ac.kr/web/microbiology/%EC%9E%A5%ED%95%99-%EB%B0%8F-%EC%B7%A8%EC%97%85",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 식품공학과 - 공지게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/food/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 코스메디컬소재학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/cosmedmaterials/affairs",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 미술학부 공예전공 - 학과공지",
+    "list_url": "https://cms.dankook.ac.kr/web/craft/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 med.dankook.ac.kr",
+      "base_url": "https://med.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 의예과 외 1개 전공 - 전체공지",
+    "list_url": "https://med.dankook.ac.kr/web/med/-26",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 med.dankook.ac.kr",
+      "base_url": "https://med.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 의예과 외 1개 전공 - 교수공지",
+    "list_url": "https://med.dankook.ac.kr/web/med/-27",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 med.dankook.ac.kr",
+      "base_url": "https://med.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 의예과 외 1개 전공 - 학생공지",
+    "list_url": "https://med.dankook.ac.kr/web/med/-28",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 med.dankook.ac.kr",
+      "base_url": "https://med.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 의예과 외 1개 전공 - 대학원공지",
+    "list_url": "https://med.dankook.ac.kr/web/med/-29",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 공공정책학과 외 1개 전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/publicadm/-3",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 공공정책학과 외 1개 전공 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/publicadm/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 사회복지학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/dkwelfare/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 해병대군사학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/rokmcms/-6",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 물리치료학과 - 자유게시판(장학 공지 게시)",
+    "list_url": "https://cms.dankook.ac.kr/web/physical_therapy/-16",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 보건행정학과 - 보건행정게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/healthadmin/-16",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 보건행정학과 - 채용공고",
+    "list_url": "https://cms.dankook.ac.kr/web/healthadmin/-19",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 치위생학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/dentalhygiene/-4",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 치위생학과 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/dentalhygiene/-18",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 간호학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/nursing/-10",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 간호학과 - 취업정보",
+    "list_url": "https://cms.dankook.ac.kr/web/nursing/q-a-",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 간호학과 - 게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/nursing/-13",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 간호학과 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/nursing/-53",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 간호학과 - 대학원 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/nursing/-50",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 간호학과 - 보건복지대학원 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/nursing/-51",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 치의예과 외 1개 전공 - 학사공지",
+    "list_url": "https://cms.dankook.ac.kr/web/dentistry/-9",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 치의예과 외 1개 전공 - 장학공지",
+    "list_url": "https://cms.dankook.ac.kr/web/dentistry/-17",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 치의예과 외 1개 전공 - 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/dentistry/-33",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 약학과 - 학부 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-20",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 약학과 - 대학원 공지사항",
+    "list_url": "https://cms.dankook.ac.kr/web/pharmacy/%EB%8C%80%ED%95%99%EC%9B%90-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 약학과 - 취업ㆍ모집 공고",
+    "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-9",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  },
+  {
+    "server": {
+      "name": "단국대학교 cms.dankook.ac.kr",
+      "base_url": "https://cms.dankook.ac.kr",
+      "interface": "HTML",
+      "location": "단국대학교",
+      "rate_limit_per_minute": 20,
+      "crawl_allowed": true,
+      "access_restricted": false
+    },
+    "name": "[천안] 약학과 - 학생회 게시판",
+    "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-13",
+    "category_hint": "학과공지",
+    "crawl_interval_minutes": 180,
+    "parser_version": "dku_bbs_v1",
+    "is_active": true
+  }
+]

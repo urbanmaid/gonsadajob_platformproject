@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-11-29",
+  "method": "공통 교육단위 4개 공지 목록 확인",
+  "departments": [
+    {
+      "campus": "죽전",
+      "college": "퇴계혁신칼리지",
+      "department": "퇴계혁신칼리지 공통",
+      "homepage_url": "https://cms.dankook.ac.kr/web/tic",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/toegye-innovation",
+      "homepage_status": "AVAILABLE",
+      "status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공통 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/tic/-12",
+          "status": "AVAILABLE"
+        }
+      ]
+    },
+    {
+      "campus": "천안",
+      "college": "율곡혁신칼리지",
+      "department": "율곡혁신칼리지 공통",
+      "homepage_url": "https://cms.dankook.ac.kr/web/yic",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/yulgok-innovation",
+      "homepage_status": "AVAILABLE",
+      "status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공통 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/yic/-13",
+          "status": "AVAILABLE"
+        }
+      ]
+    },
+    {
+      "campus": "공통",
+      "college": "자유교양대학",
+      "department": "자유교양대학 공통",
+      "homepage_url": "https://cms.dankook.ac.kr/web/liberalarts",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/liberal-arts",
+      "homepage_status": "AVAILABLE",
+      "status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공통 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/liberalarts/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "AVAILABLE"
+        }
+      ]
+    },
+    {
+      "campus": "죽전",
+      "college": "프리무스국제대학",
+      "department": "프리무스국제대학 공통",
+      "homepage_url": "https://www.dankook.ac.kr/ko/web/primus/acting-filmmaking",
+      "directory_url": "https://www.dankook.ac.kr/web/kor/primus",
+      "homepage_status": "AVAILABLE",
+      "status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공통 공지",
+          "list_url": "https://www.dankook.ac.kr/ko/web/primus/notice",
+          "status": "AVAILABLE"
+        }
+      ]
+    }
+  ]
+}

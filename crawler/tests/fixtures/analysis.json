@@ -1,0 +1,15 @@
+{
+  "summary_lines": ["소프트웨어학과 또는 컴퓨터공학과 3학년 이상 대상 실습 프로그램입니다.", "신청서를 학교 홈페이지에 2026년 12월 10일 18시까지 제출합니다."],
+  "category": "비교과", "tags": ["소프트웨어", "실습"],
+  "application_method": "학교 홈페이지에서 신청서 제출", "documents": ["신청서"],
+  "target_scope": "restricted",
+  "target_evidence": "소프트웨어학과 또는 컴퓨터공학과 3학년 이상 학생을 모집합니다.",
+  "requirements": [
+    {"logic_group": 1, "type": "department", "operator": "in", "value": "소프트웨어학과,컴퓨터공학과", "unit": null, "mandatory": true, "evidence_text": "소프트웨어학과 또는 컴퓨터공학과", "confidence": 0.99},
+    {"logic_group": 1, "type": "year", "operator": "gte", "value": "3", "unit": null, "mandatory": true, "evidence_text": "3학년 이상", "confidence": 0.99}
+  ],
+  "events": [
+    {"event_type": "APPLICATION_DEADLINE", "title": "신청 마감", "start_at": "2026-12-10T18:00:00+09:00", "end_at": null, "precision": "datetime", "timezone": "Asia/Seoul", "evidence_text": "신청 마감: 2026.12.10. 18:00"}
+  ],
+  "review_required": false
+}
