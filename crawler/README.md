@@ -12,95 +12,359 @@
 
 학과별 실행·설정은 [학과 공지 수집 안내](docs/departments.md), 접근 제한 학과는 [점검 보고서](reports/department_access_2026-11-29.md)를 먼저 확인한다.
 
-## 처음 실행 (macOS)
+## Windows 실습 (PowerShell)
 
-저장소에서 `frontend/`, `server/`, `crawler/`를 나란히 둔다. Python 3.12 이상이 필요하며, 이번 오프라인 검증에는 Python 3.14.10을 사용했다.
+이 문서의 1~8단계를 따르면 **기본 테스트 → 실제 공지 미리 보기 → 로컬 DB 저장 → 서버 API 조회**까지 확인할 수 있다. 처음에는 각자 PC의 SQLite를 사용하며 Supabase 계정과 OpenAI 키는 필요하지 않다. AI 분석은 10단계에서 선택적으로 실행한다.
 
-```bash
-cd gonsadajob_platformproject/crawler
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-cp .env.example .env
+- 권장 환경: Windows 10/11, Python 3.14, Windows PowerShell 5.1 또는 PowerShell 7.
+- 아래 `powershell` 블록은 **PowerShell 창에 한 블록씩 붙여 넣는다.** CMD/Git Bash에 섞어 넣지 않는다.
+- 가상환경의 `python.exe`를 직접 실행하므로 `Activate.ps1` 실행이나 실행 정책 변경은 필요하지 않다.
+- 오류가 나오면 다음 블록을 실행하지 않는다. `if ($LASTEXITCODE -ne 0)`은 Python 명령 실패를 확인한다.
+- 이 절차는 각자 PC에서 독립적으로 재현한다. 한 팀원이 수집한 로컬 DB가 다른 팀원에게 자동으로 공유되지는 않는다.
+- **검증 범위:** Python 3.14.10/macOS에서 크롤러 테스트 54개, 오프라인 데모, 서버 공통 8개 테이블 컬럼 비교를 확인했다. Windows/PowerShell에서의 실제 실행, 서버 패키지 설치 및 실시간 HTTP/OpenAI/Supabase 통합은 이 문서의 성공 기준에 따라 팀 환경에서 추가 검증해야 한다.
 
-python -m unittest discover -s tests -v
-python scripts/demo_pipeline.py
-python -m app.main preview --fixture
+### 1. 저장소와 Python 준비
+
+1. [func_crawler 브랜치](https://github.com/urbanmaid/gonsadajob_platformproject/tree/func_crawler)를 연다. PR 병합 전에도 이 브랜치로 실습할 수 있다.
+2. **Code → Download ZIP → 모두 압축 풀기**로 저장소 전체를 내려받는다. ZIP 안에서 직접 실행하거나 `crawler`만 따로 옮기지 않는다.
+3. 압축을 푼 폴더 중 **`crawler`, `server`, `frontend`가 바로 안에 있는 폴더**가 프로젝트 루트다. 탐색기의 주소 표시줄을 클릭해 이 폴더의 실제 경로를 복사한다. Downloads/Documents/OneDrive 위치나 폴더 이름을 임의로 가정하지 않는다.
+4. 시작 메뉴에서 **PowerShell**을 열고 아래 명령을 실행한다.
+
+```powershell
+py -3.14 --version
 ```
 
-테스트와 데모는 네트워크·DB 계정·OpenAI 키 없이 실행할 수 있다. 데모 자료는 합성 공지이며 실제 AI 호출 결과가 아니다. PostgreSQL을 사용하지 않는다면 패키지 설치 전에도 위 세 명령을 실행할 수 있다.
+`Python 3.14.x`가 나와야 한다. 설치되어 있지 않다면 [Python 공식 다운로드](https://www.python.org/downloads/windows/)에서 Python install manager를 설치하고 PowerShell을 새로 연다. 설치 관리자를 사용하는 경우 `pymanager install 3.14`로 3.14를 설치한 뒤 위 명령을 다시 확인한다. [공식 Windows 설치 안내](https://docs.python.org/3.14/using/windows.html)도 참고한다.
 
-### 처음 실행 (Git Bash / Windows)
+Git이 설치되어 있다면 ZIP 대신 `git clone --branch func_crawler https://github.com/urbanmaid/gonsadajob_platformproject.git`을 사용할 수 있다. 이미 작업 중인 폴더를 덮어쓰지 않는다. ZIP으로 받은 폴더에는 Git 메타데이터가 없으므로 `git switch`나 `git pull`을 실행하지 않는다.
 
-```bash
-cd ~/projects/gonsa/crawler
+### 2. PowerShell A: 실제 경로 확인
+
+첫 번째 창을 **PowerShell A**라고 한다. 아래 블록을 실행한 뒤 경로를 물으면 1단계에서 복사한 **프로젝트 루트 경로**를 입력한다. `crawler`나 `server`까지 붙이지 않는다.
+
+```powershell
+$ErrorActionPreference = "Stop"
+$env:PYTHONUTF8 = "1"
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+$projectRoot = (Read-Host "프로젝트 루트 폴더의 실제 경로").Trim().Trim('"')
+$projectRoot = (Resolve-Path -LiteralPath $projectRoot).Path
+foreach ($relative in @("crawler\app\main.py", "crawler\tests", "crawler\.env.example", "crawler\.gitignore", "server\app\main.py", "server\.env.example")) {
+    if (-not (Test-Path -LiteralPath (Join-Path $projectRoot $relative))) {
+        throw "필수 파일 또는 폴더가 없습니다: $relative / 압축 해제 위치와 브랜치를 확인하세요."
+    }
+}
+Set-Location -LiteralPath $projectRoot
+Get-Location
+```
+
+마지막에 탐색기에서 복사한 경로가 표시되면 성공이다. `$projectRoot`는 이 창에만 저장된다. 새 창에서는 5단계처럼 다시 설정한다.
+
+### 3. PowerShell A: 크롤러 기본 테스트
+
+```powershell
+Set-Location -LiteralPath (Join-Path $projectRoot "crawler")
 py -3.14 -m venv .venv
-source .venv/Scripts/activate
-python -m pip install -r requirements.txt
-cp .env.example .env
-python -m unittest discover -s tests -v
-python scripts/demo_pipeline.py
+if ($LASTEXITCODE -ne 0) { throw "크롤러 가상환경 생성 실패" }
+if (-not (Test-Path -LiteralPath ".env")) {
+    Copy-Item -LiteralPath ".env.example" -Destination ".env"
+}
+& .\.venv\Scripts\python.exe -m unittest discover -s tests -v
+if ($LASTEXITCODE -ne 0) { throw "크롤러 테스트 실패: 위 오류를 확인하세요." }
+& .\.venv\Scripts\python.exe scripts\check_server_contract.py
+if ($LASTEXITCODE -ne 0) { throw "서버와 크롤러의 컬럼 정의가 다릅니다." }
 ```
 
-## 기반 서버와 연결
+현재 2차 구현본 기준 성공 결과:
 
-1. `server/README.md`에 따라 서버를 실행하여 테이블을 만든다.
-2. 크롤러 `.env`의 `DATABASE_URL`을 **서버와 같은 DB**로 맞춘다.
-3. 관리자 API로 수집 대상 게시판을 등록한다.
-4. 수집 결과를 미리 확인한 뒤 워커를 실행한다.
-
-서버 기본 설정이 `sqlite:///./dev.db`라면 `crawler/.env`에는 `sqlite:///../server/dev.db`를 사용한다. 상대 경로는 각 명령을 실행하는 폴더 기준이다. 서버와 크롤러의 `app/` 패키지는 별도 프로세스에서 실행하며 서로 직접 import하지 않는다.
-
-```bash
-python -m app.main check
-python scripts/check_server_contract.py
-python scripts/register_sources.py
+```text
+Ran 54 tests in ...
+OK
+OK: 기반 서버 공통 8개 테이블의 컬럼 이름 일치
 ```
 
-`check`는 공통 8개 테이블의 연결·컬럼을 읽어서 확인한다. `check_server_contract.py`는 `../server/app/models.py`의 컬럼 이름을 비교하는 정적 검사이며 자료형·권한·API 통합 검사를 대체하지 않는다. `register_sources.py`는 기본적으로 등록할 JSON만 출력한다.
+이어서 데모와 샘플 파싱을 확인한다.
 
-### 수집 대상 등록
+```powershell
+& .\.venv\Scripts\python.exe scripts\demo_pipeline.py
+if ($LASTEXITCODE -ne 0) { throw "오프라인 데모 실패" }
+& .\.venv\Scripts\python.exe -m app.main preview --fixture
+if ($LASTEXITCODE -ne 0) { throw "샘플 파싱 실패" }
+```
 
-기본 등록 스크립트는 일반·공통 게시판 5개와 학과 게시판 161개를 합쳐 처리한다. 서버의 `/docs`에서 직접 등록한다면 `POST /api/v1/admin/sources`에 설정의 **객체 하나씩** 넣는다. 배열 전체를 요청 본문에 넣지 않는다.
+| 데모 출력 | 의미 |
+|---|---|
+| `mode: OFFLINE_FIXTURE`, `real_api_called: false` | 합성 자료 사용, 실제 AI 호출 없음 |
+| 수집 작업 `SUCCEEDED` | 데모 공지 처리 성공 |
+| `repeat_save: unchanged` | 같은 내용을 다시 저장해도 중복 생성하지 않음 |
+| `notice_count: 1`, `current_analysis_count: 1` | 공지와 현재 분석 각 1건 유지 |
+| 분석 작업 `REVIEW_REQUIRED` | 첨부·이미지의 추가 확인 필요. 데모 실패가 아님 |
 
-스크립트를 사용할 경우 `.env`에 다음 두 항목을 추가한 뒤 실행한다. 토큰은 서버의 개발용 관리자 토큰 또는 실제 관리자 access token이다.
+데모는 메모리 DB를 사용하며 `server/dev.db`에 샘플 공지를 넣지 않는다. 크롤러의 오프라인 테스트와 SQLite 실행은 표준 라이브러리로 가능하므로 이 단계에서는 `crawler/requirements.txt` 설치가 필요하지 않다. 컬럼 비교는 정적 검사이며 실제 API/DB 통합 검사를 대신하지 않는다.
+
+### 4. PowerShell A: 서버 준비와 실행
+
+```powershell
+Set-Location -LiteralPath (Join-Path $projectRoot "server")
+py -3.14 -m venv .venv
+if ($LASTEXITCODE -ne 0) { throw "서버 가상환경 생성 실패" }
+& .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+if ($LASTEXITCODE -ne 0) { throw "서버 패키지 설치 실패: 설치 로그를 확인하세요." }
+if (-not (Test-Path -LiteralPath ".env")) {
+    Copy-Item -LiteralPath ".env.example" -Destination ".env"
+}
+& .\.venv\Scripts\python.exe -m pytest -q
+if ($LASTEXITCODE -ne 0) { throw "서버 테스트 실패: 위 오류를 확인하세요." }
+```
+
+서버 테스트는 `passed`이고 실패가 없어야 한다. 크롤러의 54개 테스트와는 별도다.
+
+처음 복사한 `server/.env.example`은 아래 로컬 설정을 제공한다. 기존 `.env`가 있다면 `notepad .env`로 확인한다. 기존 팀 공용 설정을 이 실습을 위해 덮어쓰기보다 별도로 내려받은 실습 폴더를 사용한다.
 
 ```dotenv
-API_BASE_URL=http://127.0.0.1:8000/api/v1
-ADMIN_ACCESS_TOKEN=
+ENVIRONMENT=development
+DATABASE_URL=sqlite:///./dev.db
+AUTO_CREATE_TABLES=true
+SUPABASE_URL=
+NOTICES_PUBLIC=true
 ```
+
+`JWT_SECRET`은 개발 토큰 발급에 필요하므로 예시 파일의 값을 지우지 않는다. 이 예시 키는 로컬 개발용이며 실제 Supabase/운영 환경에서는 사용하지 않는다.
+
+아래 검사로 로컬 DB 설정인지 확인한 뒤 서버를 실행한다.
+
+```powershell
+& .\.venv\Scripts\python.exe -c "from app.config import get_settings; s=get_settings(); assert s.environment == 'development' and s.database_url == 'sqlite:///./dev.db' and not s.supabase_url and s.auto_create_tables and s.notices_public and bool(s.jwt_secret), 'Check server/.env: local SQLite development settings required'; print('OK: local SQLite settings')"
+if ($LASTEXITCODE -ne 0) { throw "server/.env의 로컬 실습 설정을 확인하세요." }
+& .\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+`Application startup complete.`가 표시되면 브라우저에서 [서버 상태](http://127.0.0.1:8000/health)를 연다.
+
+```json
+{"status":"ok","database":true,"environment":"development"}
+```
+
+서버 시작 시 `server/dev.db`와 필요한 테이블이 만들어진다. **PowerShell A는 서버가 실행된 채로 둔다. 이후 작업은 새 PowerShell B에서 한다.** `/health`에는 `/api/v1`을 붙이지 않는다.
+
+### 5. PowerShell B: 관리자 토큰과 DB 연결
+
+새 PowerShell 창을 열고 아래 블록을 실행한다. 경로를 물으면 A에서 사용한 것과 **같은 프로젝트 루트**를 입력한다.
+
+```powershell
+$ErrorActionPreference = "Stop"
+$env:PYTHONUTF8 = "1"
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+$projectRoot = (Read-Host "A와 같은 프로젝트 루트 폴더의 실제 경로").Trim().Trim('"')
+$projectRoot = (Resolve-Path -LiteralPath $projectRoot).Path
+$serverPython = Join-Path $projectRoot "server\.venv\Scripts\python.exe"
+$crawlerPython = Join-Path $projectRoot "crawler\.venv\Scripts\python.exe"
+foreach ($executablePath in @($serverPython, $crawlerPython)) {
+    if (-not (Test-Path -LiteralPath $executablePath)) { throw "가상환경을 찾을 수 없습니다: $executablePath" }
+}
+Set-Location -LiteralPath (Join-Path $projectRoot "server")
+$adminToken = & $serverPython scripts\make_dev_token.py --admin
+if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace([string]$adminToken)) {
+    throw "개발용 관리자 토큰 발급 실패: server/.env를 확인하세요."
+}
+$env:ADMIN_ACCESS_TOKEN = ([string]$adminToken).Trim()
+Set-Location -LiteralPath (Join-Path $projectRoot "crawler")
+$env:DATABASE_URL = "sqlite:///../server/dev.db"
+$env:API_BASE_URL = "http://127.0.0.1:8000/api/v1"
+$env:PAGES_PER_BOARD = "1"
+$env:NOTICES_PER_BOARD = "2"
+$env:ANALYSES_PER_CYCLE = "1"
+& $crawlerPython -m app.main check
+if ($LASTEXITCODE -ne 0) { throw "DB 연결 또는 테이블 확인 실패" }
+```
+
+정상 결과:
+
+```json
+{"database":"sqlite","common_tables":8,"status":"OK"}
+```
+
+| 실행 위치 | DB 주소 | 실제 사용하는 파일 |
+|---|---|---|
+| `server` | `sqlite:///./dev.db` | 프로젝트 루트의 `server/dev.db` |
+| `crawler` | `sqlite:///../server/dev.db` | 위와 같은 파일 |
+
+이 블록의 `$env:` 값은 **B 창에만 적용되며 `.env`보다 우선**한다. 관리자 토큰은 출력하거나 파일에 쓰지 않는다. 창을 닫거나 토큰 기본 유효기간 24시간이 지나면 5단계를 다시 실행한다. 서버의 `JWT_SECRET`을 바꾼 경우에는 서버를 재시작하고 토큰도 다시 발급한다.
+
+### 6. PowerShell B: 실제 공지 1건 미리 보기
+
+```powershell
+Set-Location -LiteralPath (Join-Path $projectRoot "crawler")
+& $crawlerPython -m app.main preview --url https://cms.dankook.ac.kr/web/ace/notice --limit 1
+if ($LASTEXITCODE -ne 0) { throw "실제 홈페이지 미리 보기 실패: 오류 코드를 확인하세요." }
+```
+
+실제 공지의 제목·본문·원문 주소가 JSON으로 표시되는지 확인하고 원문 링크와 비교한다. **출력이 없으면 공지 수집 성공으로 판단하지 않는다.** 이 명령은 DB 저장·AI 호출을 하지 않는다. 브라우저에서 열리는 사이트도 HTTP 자동 수집에서는 robots 정책이나 접근 제한에 걸릴 수 있다.
+
+### 7. PowerShell B: 게시판 등록과 실제 저장
+
+처음에는 컴퓨터공학과만 등록한다.
+
+```powershell
+Set-Location -LiteralPath (Join-Path $projectRoot "crawler")
+& $crawlerPython scripts\register_sources.py --department "컴퓨터공학과" --apply
+if ($LASTEXITCODE -ne 0) { throw "수집 대상 등록 실패: 서버 실행과 관리자 인증을 확인하세요." }
+& $crawlerPython -m app.main run-once --crawl-only --department "컴퓨터공학과" --max-jobs 3
+if ($LASTEXITCODE -ne 0) { throw "수집 실패 또는 일부 실패: 출력된 작업 상태와 errors를 확인하세요." }
+```
+
+등록의 `CREATED`는 신규 등록, `SKIPPED_EXISTING`은 같은 URL이 이미 있어 건너뛴 것이다. `--apply`를 빼면 등록 예정 JSON만 출력하고 실제 등록하지 않는다.
+
+| 출력 | 확인 기준 |
+|---|---|
+| 수집 작업 `SUCCEEDED` | 해당 작업 처리 성공 |
+| `fetched_count` | 읽은 공지 수. 정상 빈 게시판에서는 0일 수 있음 |
+| `created_count` / `updated_count` | 새 공지 / 변경 내용 저장 수. 기존 동일 공지는 새로 만들지 않음 |
+| `errors`, `PARTIAL`, `FAILED` | 실패 이유를 확인할 것 |
+
+`--max-jobs 3`은 **게시판 작업 최대 3개**이고, 공지 수는 B의 `NOTICES_PER_BOARD=2`가 제한한다. `--crawl-only`이므로 AI는 호출하지 않고 분석 작업을 `PENDING`으로 남긴다. 한 DB에서는 크롤러 워커 하나만 실행한다.
+
+### 8. 브라우저에서 API 결과 확인
+
+1. [API 테스트 화면](http://127.0.0.1:8000/docs)을 연다.
+2. `GET /api/v1/notices` → **Try it out → Execute**. HTTP 200과 `items` 안의 실제 수집 공지를 확인한다.
+3. 공지의 `id`를 복사한다.
+4. `GET /api/v1/notices/{notice_id}` → **Try it out** → 복사한 `id` 입력 → **Execute**.
+5. 제목·본문·원문 주소·첨부 정보를 원문과 비교한다. AI 실행 전 요약이 비어 있는 것은 정상이다.
+
+관리자 작업 기록을 확인하려면 B에서 아래 명령으로 토큰을 클립보드에 복사한다.
+
+```powershell
+$env:ADMIN_ACCESS_TOKEN | Set-Clipboard
+```
+
+`/docs` 오른쪽 위 **Authorize**에 붙여 넣고 인증한다. `Bearer `는 직접 붙이지 않는다. 이후 `GET /api/v1/admin/crawl-jobs`, `GET /api/v1/admin/analysis-jobs`를 실행한다. 기본 로컬 설정에서는 일반 공지 목록·상세 조회에 이 인증이 필요하지 않다.
+
+**완료 기준:** 기본 테스트 통과 + `/health` 정상 + 실제 공지 저장 + `/api/v1/notices` 및 상세 API에서 확인. 이것은 크롤러·서버 연동 확인이며, 프론트의 샘플 데이터를 실제 API로 교체하는 작업은 프론트 담당 영역이다.
+
+### 9. 전체 학과 접근 점검과 수집 확대
+
+PowerShell B에서 실행한다. `--offline`은 포함된 과거 점검 자료로 보고서를 다시 만드는 옵션이며 실시간 접속 검사가 아니다.
+
+```powershell
+Set-Location -LiteralPath (Join-Path $projectRoot "crawler")
+& $crawlerPython scripts\check_departments.py --department "컴퓨터공학과" --output reports/computer_engineering_live
+if ($LASTEXITCODE -ne 0) { throw "학과 점검 스크립트 오류" }
+Invoke-Item .\reports\computer_engineering_live.csv
+```
+
+전체 학과의 현재 접근 상태를 확인하려면:
+
+```powershell
+& $crawlerPython scripts\check_departments.py --output reports/department_access_live
+if ($LASTEXITCODE -ne 0) { throw "전체 점검 스크립트 오류" }
+Invoke-Item .\reports\department_access_live.csv
+```
+
+JSON·CSV·Markdown 보고서가 생성된다. 스크립트가 끝났다는 사실과 모든 학과의 접속 성공은 다르므로 **보고서 안의 상태와 사유**를 확인한다. CSV 연결 프로그램이 없으면 `notepad .\reports\department_access_live.md`로 Markdown 파일을 읽는다.
+
+전체 수집 대상 등록 후 한 번 실행:
+
+```powershell
+& $crawlerPython scripts\register_sources.py --apply
+if ($LASTEXITCODE -ne 0) { throw "전체 수집 대상 등록 실패" }
+& $crawlerPython -m app.main run-once --crawl-only --max-jobs 200
+if ($LASTEXITCODE -ne 0) { throw "실패한 작업의 상태와 사유를 확인하세요." }
+```
+
+기본 설정 대상은 공개 학과 게시판 161개와 일반·공통 게시판 5개다. 접근 제한 학과는 목록과 보고서에 남기되 활성 수집 대상에서 제외한다. B 창의 게시판당 2건 제한은 계속 적용되며 과거 공지 전체 다운로드를 의미하지 않는다. 전체 실행은 요청 간격 때문에 오래 걸릴 수 있다.
+
+학과 게시판의 기본 수집 주기는 180분이다. 바로 다시 실행하면 처리할 작업이 없을 수 있다. 즉시 재수집이 필요하면 관리자 인증 후 `POST /api/v1/admin/crawl-jobs`에 `{"board_id":"등록 결과의 실제 게시판 UUID"}`를 보내고 아래를 실행한다. `{}`는 활성 게시판 전체 요청이므로 특정 게시판 테스트에는 실제 ID를 넣는다.
+
+```powershell
+& $crawlerPython -m app.main run-once --no-schedule --crawl-only --max-jobs 3
+```
+
+기존 같은 `list_url`은 등록 시 건너뛰며 같은 `base_url`의 서버를 재사용한다. 기존 대상의 활성 상태·주소·파서 변경은 관리자 API `PATCH /api/v1/admin/sources/{id}`로 반영한다.
+
+### 10. 실제 AI 분석 (선택)
+
+OpenAI API 키가 있는 경우에만 진행하며 실제 API 사용 요금이 발생한다. B의 `ANALYSES_PER_CYCLE=1` 설정으로 대기 분석을 최대 1건 처리한다.
+
+```powershell
+Set-Location -LiteralPath (Join-Path $projectRoot "crawler")
+notepad .env
+```
+
+기존 `OPENAI_API_KEY=` 줄에 본인의 키를 입력하고 저장한다. 파일 이름은 `.env.txt`가 아닌 `.env`, 인코딩은 **UTF-8(BOM 없음)**으로 유지한다. 같은 설정 키를 중복해서 추가하지 않는다. 현재 로더는 UTF-8 텍스트를 읽으며, PowerShell 5.1의 `>`/`Out-File` 기본 인코딩과 맞지 않을 수 있으므로 이 방법으로 `.env`를 만들지 않는다.
+
+```dotenv
+OPENAI_API_KEY=본인의_API_키
+OPENAI_MODEL=gpt-4o-mini
+```
+
+```powershell
+& $crawlerPython -m app.main run-once --analysis-only
+if ($LASTEXITCODE -ne 0) { throw "AI 분석 실패: 분석 작업의 오류 코드를 확인하세요." }
+```
+
+분석 작업 목록에서 처리된 공지를 확인하고 해당 상세 API에서 요약·분류·조건·일정을 확인한다. `REVIEW_REQUIRED`는 원문·첨부 확인이 필요한 상태다. PDF/HWP/HWPX 본문 추출과 이미지 OCR은 포함하지 않는다. 키가 비어 있으면 실제 분석은 생략되고 대기 작업이 유지된다. 분석 큐는 공통이므로 학과 선택 옵션을 붙이지 않는다.
+
+### 11. 종료와 다음 실행
+
+- A에서 **Ctrl+C**를 눌러 서버를 종료한다. DB는 `server/dev.db`에 남는다.
+- 다음 실행 때는 A에서 2단계로 경로를 설정하고 `server`로 이동한 뒤 4단계의 서버 실행 명령을 사용한다. 가상환경·패키지 설치는 처음 준비하거나 의존성이 변경됐을 때 필요하다.
+- B는 새로 열 때마다 5단계를 실행한다. 그러면 토큰·소규모 수집 설정을 다시 적용한다.
+- 수집 중 Ctrl+C로 중단해 `RUNNING` 작업이 남았다면 다른 워커가 종료된 것을 확인하고 B에서 `& $crawlerPython -m app.main recover`를 실행한다. 중단 작업을 `FAILED`로 마감하며 자동 재시도하지 않는다. 필요한 작업은 관리자 API에서 다시 요청한다.
+- 지속 수집은 B에서 `& $crawlerPython -m app.main run --crawl-only`로 실행하고 Ctrl+C로 멈춘다. DB 파일을 삭제하는 방식으로 매번 초기화할 필요는 없다.
+
+### 12. 자주 발생하는 오류
+
+| 증상 | 확인·조치 |
+|---|---|
+| 경로를 찾을 수 없음 / `Start directory is not importable: tests` | 압축을 완전히 풀었는지, 루트 바로 아래 `crawler`·`server`가 있는지 확인. 2단계 또는 5단계의 실제 경로를 다시 입력 |
+| `py` 또는 Python 3.14를 찾을 수 없음 | 1단계의 공식 설치 절차 후 새 PowerShell 창에서 확인 |
+| `source`를 인식하지 못함 / `&&` 구문 오류 | Git Bash/macOS 명령을 PowerShell에 넣은 경우. 이 문서의 `powershell` 블록 사용 |
+| `Activate.ps1` 실행이 차단됨 | 활성화 대신 이 문서의 `.venv\Scripts\python.exe` 직접 실행 방식 사용 |
+| `.env.example` 또는 `.gitignore` 없음 | `func_crawler`의 최신 전체 파일을 받았는지 확인. 두 파일은 저장소에 포함되어야 함 |
+| `No module named fastapi` / `pytest` | `server`의 가상환경으로 서버 `requirements.txt` 설치. 크롤러 가상환경과 혼동하지 않기 |
+| `No module named app` | `Get-Location` 확인. 서버 명령은 `server`, 크롤러 명령은 `crawler`에서 실행 |
+| `.env` 파싱 오류 / 설정 미반영 | UTF-8(BOM 없음), `.env.txt` 여부, 중복 키 확인. B의 `$env:` 값은 파일보다 우선하며 새 창에는 유지되지 않음 |
+| 서버 패키지 설치 실패 | Python 버전과 설치 로그 확인. DNS·프록시·패키지 다운로드 문제인지 구분 |
+| 연결 거부 / `Connection refused` | A가 실행 중인지, `http://127.0.0.1:8000/health`가 열리는지 확인 |
+| DB 파일·테이블 없음 | 서버를 먼저 실행. 5단계의 DB 주소와 두 명령의 실행 폴더 확인 |
+| 관리자 API 401/403 | 5단계로 관리자 토큰 재발급. API 주소와 서버 JWT 설정 일치 여부 확인 |
+| 8000 포트 사용 중 | 본인이 앞서 실행한 서버 창을 확인해 종료. 다른 프로그램을 임의로 강제 종료하지 않기 |
+| `URLERROR` / `SOURCE_HTTP_403/429` / robots 관련 오류 | 출력 코드와 접근 보고서 확인. DNS·사이트 응답·수집 정책을 구분하고 접근 제한을 우회하지 않기 |
+| 실행했는데 작업이 0개 | 대상 등록·활성 상태·수집 주기 확인. 필요하면 9단계의 수동 작업 요청 사용 |
+| `REVIEW_REQUIRED` | 첨부·이미지 또는 불명확한 조건을 사람이 확인해야 함. 테스트 실패와 구분 |
+
+오류를 공유할 때는 **단계 번호, 실행 명령, Python 버전, 오류 코드**를 함께 남긴다. 토큰·API 키·DB 접속 비밀번호가 들어 있는 `.env` 내용은 공유하지 않는다. `.env`, `.venv`, `dev.db`는 GitHub에 올리지 않고 `.env.example`, `.gitignore`는 함께 관리한다.
+
+## macOS와 Git Bash 참고
+
+Windows 팀원은 위 PowerShell 절차를 사용한다. 아래는 다른 셸의 기본 테스트 명령이며, 먼저 실제 프로젝트의 `crawler` 폴더로 이동한 상태에서 실행한다. 다른 사람의 절대 경로를 그대로 복사하지 않는다.
+
+### macOS (zsh/bash)
 
 ```bash
-python scripts/register_sources.py --apply
+test -f app/main.py && test -d tests &&
+python3.14 -m venv .venv &&
+./.venv/bin/python -m unittest discover -s tests -v &&
+./.venv/bin/python scripts/demo_pipeline.py
 ```
 
-기존에 같은 `list_url`이 있으면 건너뛰고, 같은 `base_url`의 서버가 있으면 `server_id`를 재사용한다. 기존 대상의 파서·활성 상태가 다르면 관리자가 `PATCH /admin/sources/{id}`로 수정한다. `crawler` DB 계정에는 수집 대상 INSERT 권한이 없으므로 이 등록 절차를 분리했다.
+서버용 가상환경은 `server`에서 따로 생성한다. macOS의 Python 경로는 `.venv/bin/python`, Windows는 `.venv/Scripts/python.exe`이다. 서버 준비 → 관리자 토큰 → 동일 DB 연결 → 수집 → API 확인 순서는 동일하다.
 
-### 미리 보기와 실행
+### Git Bash (Windows)
 
 ```bash
-# 실제 웹 수집, 결과 출력만. DB 저장·AI 호출 없음
-python -m app.main preview --limit 3
-
-# 정기 작업 생성 → 수집 → 분석 대기 작업 처리
-python -m app.main run-once
-
-# 수집만 실행. API 키 없이 가능하며 분석은 PENDING으로 남음
-python -m app.main run-once --crawl-only
-
-# 대기 중인 분석만 실행. OPENAI_API_KEY 필요
-python -m app.main run-once --analysis-only
-
-# 관리자 요청만 처리 (정기 작업 생성 안 함)
-python -m app.main run-once --no-schedule
-
-# 기본 60초마다 큐 확인, 게시판의 수집 주기에 맞춰 작업 생성
-python -m app.main run
+test -f app/main.py && test -d tests &&
+py -3.14 -m venv .venv &&
+./.venv/Scripts/python.exe -m unittest discover -s tests -v &&
+./.venv/Scripts/python.exe scripts/demo_pipeline.py
 ```
 
-`OPENAI_API_KEY`가 비어 있으면 AI를 호출하지 않고 분석 작업을 보존한다. 실제 분석은 OpenAI API를 사용하므로 해당 계정의 API 사용 요금이 발생한다. 키는 `crawler/.env`에만 넣는다.
+공식 참고: [Python 가상환경](https://docs.python.org/3/library/venv.html), [PowerShell 인코딩](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_character_encoding), [PowerShell 명령 연결 연산자](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pipeline_chain_operators).
+
 
 ## Supabase 연결
+
+개별 로컬 실습을 마친 뒤 팀 공용 DB를 연결할 때 진행한다. 위 PowerShell B의 `DATABASE_URL` 환경변수는 `.env`보다 우선하므로 B를 닫고 새 창에서 팀 설정을 적용한다. 이때 5단계의 로컬 SQLite 설정 블록을 다시 실행하지 않는다. 크롤러 가상환경에서 `requirements.txt`를 설치하고, 실제 팀 서버의 `API_BASE_URL`·관리자 토큰·전용 DB 주소를 로컬 `.env`에 설정한다.
 
 - 서버 담당자가 `server/sql/01_enable_rls.sql`, `02_crawler_role.sql`을 적용하고 `crawler` 전용 접속 주소를 전달한다.
 - `.env`의 DB 주소를 `postgresql://...` 또는 서버와 같은 `postgresql+psycopg://...` 형식으로 설정한다.
@@ -141,7 +405,7 @@ python -m app.main run
 
 **프론트엔드 (서지우)**
 
-- 기존 서버의 `/api/v1/notices`, `/notices/{id}`, `/notices/{id}/eligibility`를 사용한다.
+- 기존 서버의 `/api/v1/notices`, `/api/v1/notices/{id}`, `/api/v1/notices/{id}/eligibility`를 사용한다.
 - `summary_lines`는 배열, `id`는 UUID, `source`는 객체라는 서버 형식을 따른다.
 - `review_required`, `attachment_check_needed`, `NEEDS_CHECK` 상태를 표시한다.
 - 프론트의 샘플 데이터 → 실제 API 교체 작업은 프론트 담당 영역이다.
