@@ -3,7 +3,7 @@
 from collections.abc import Iterator
 
 from sqlalchemy import create_engine, event
-from sqlalchemy.engine import Engine
+from sqlalchemy.engine import Engine, make_url
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
 from sqlalchemy.pool import StaticPool
 
@@ -14,7 +14,22 @@ class Base(DeclarativeBase):
     pass
 
 
+SUPABASE_TRANSACTION_POOLER_PORT = 6543
+
+
+def normalize_database_url(url: str) -> str:
+    """Supabase 대시보드에서 복사한 연결 문자열을 그대로 붙여도 동작하게 드라이버(psycopg)를 지정한다.
+
+    postgres://...  /  postgresql://...  →  postgresql+psycopg://...
+    """
+    for prefix in ("postgres://", "postgresql://"):
+        if url.startswith(prefix):
+            return "postgresql+psycopg://" + url[len(prefix) :]
+    return url
+
+
 def make_engine(url: str) -> Engine:
+    url = normalize_database_url(url)
     kwargs: dict = {}
     is_sqlite = url.startswith("sqlite")
     if is_sqlite:
@@ -24,6 +39,9 @@ def make_engine(url: str) -> Engine:
             kwargs["poolclass"] = StaticPool
     else:
         kwargs["pool_pre_ping"] = True
+        if make_url(url).port == SUPABASE_TRANSACTION_POOLER_PORT:
+            # Supabase 트랜잭션 풀러(6543)는 prepared statement를 지원하지 않는다
+            kwargs["connect_args"] = {"prepare_threshold": None}
 
     engine = create_engine(url, **kwargs)
 

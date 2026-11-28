@@ -5,7 +5,12 @@
 
 from functools import lru_cache
 
+from pydantic import model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+# .env.example에 공개된 예시 값의 앞부분. 이 값으로는 실제 환경에서 서버가 뜨지 않게 막는다.
+EXAMPLE_JWT_SECRET_PREFIX = "change-me"
+MIN_JWT_SECRET_LENGTH = 32
 
 
 class Settings(BaseSettings):
@@ -40,6 +45,33 @@ class Settings(BaseSettings):
 
     # 검색·열람 기록 보관 기간(일)
     activity_retention_days: int = 90
+
+    @property
+    def uses_real_backend(self) -> bool:
+        """Supabase나 운영 환경에 연결된 상태인지 (로컬 SQLite 개발이 아닌지)."""
+        return (
+            bool(self.supabase_url)
+            or self.environment == "production"
+            or self.database_url.startswith(("postgres://", "postgresql"))
+        )
+
+    @model_validator(mode="after")
+    def _reject_insecure_jwt_secret(self) -> "Settings":
+        """예시 값이나 짧은 JWT_SECRET으로 실제 환경에 연결하면 서버 시작을 막는다.
+
+        예시 값은 깃허브에 공개되어 있어, 그대로 쓰면 누구나 로그인 토큰을 위조할 수 있다.
+        로컬 SQLite 개발 중에는 편의를 위해 허용한다.
+        """
+        secret = self.jwt_secret
+        if not secret or not self.uses_real_backend:
+            return self
+        if secret.startswith(EXAMPLE_JWT_SECRET_PREFIX) or len(secret) < MIN_JWT_SECRET_LENGTH:
+            raise ValueError(
+                "JWT_SECRET이 예시 값이거나 너무 짧습니다. Supabase에 연결할 때는 "
+                "Project Settings > JWT Keys의 Legacy JWT secret으로 바꾸거나, "
+                "새 서명 키(ES256)만 쓰는 프로젝트라면 JWT_SECRET을 비워 두세요."
+            )
+        return self
 
     @property
     def cors_origin_list(self) -> list[str]:
