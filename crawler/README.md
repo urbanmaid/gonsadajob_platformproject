@@ -30,7 +30,7 @@ python -m app.main preview --fixture
 
 테스트와 데모는 네트워크·DB 계정·OpenAI 키 없이 실행할 수 있다. 데모 자료는 합성 공지이며 실제 AI 호출 결과가 아니다. PostgreSQL을 사용하지 않는다면 패키지 설치 전에도 위 세 명령을 실행할 수 있다.
 
-### Git Bash / Windows
+### 처음 실행 (Git Bash / Windows)
 
 ```bash
 cd ~/projects/gonsa/crawler
