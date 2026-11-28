@@ -1,0 +1,12 @@
+# Python 3.12 이상 (팀 권장 3.14)
+fastapi>=0.120
+uvicorn>=0.38
+sqlalchemy>=2.0.44
+pydantic>=2.12
+pydantic-settings>=2.11
+pyjwt[crypto]>=2.10
+httpx>=0.28
+pytest>=8.4
+
+# Supabase(PostgreSQL)에 연결할 때만 주석 해제
+# psycopg[binary]>=3.2.10

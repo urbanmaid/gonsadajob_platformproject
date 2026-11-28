@@ -1,0 +1,14 @@
+[project]
+name = "gonsadajob-server"
+version = "0.1.0"
+description = "공지사항 개인화 플랫폼 기반 서버 (FastAPI)"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
