@@ -47,6 +47,11 @@ $ErrorActionPreference = "Stop"
 $env:PYTHONUTF8 = "1"
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 $projectRoot = (Read-Host "프로젝트 루트 폴더의 실제 경로").Trim().Trim('"')
+```
+
+경로를 입력하고 Enter를 누른 뒤, 다음 블록을 실행한다.
+
+```powershell
 $projectRoot = (Resolve-Path -LiteralPath $projectRoot).Path
 foreach ($relative in @("crawler\app\main.py", "crawler\tests", "crawler\.env.example", "crawler\.gitignore", "server\app\main.py", "server\.env.example")) {
     if (-not (Test-Path -LiteralPath (Join-Path $projectRoot $relative))) {
@@ -155,6 +160,11 @@ $ErrorActionPreference = "Stop"
 $env:PYTHONUTF8 = "1"
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 $projectRoot = (Read-Host "A와 같은 프로젝트 루트 폴더의 실제 경로").Trim().Trim('"')
+```
+
+경로를 입력하고 Enter를 누른 뒤, 다음 블록을 실행한다.
+
+```powershell
 $projectRoot = (Resolve-Path -LiteralPath $projectRoot).Path
 $serverPython = Join-Path $projectRoot "server\.venv\Scripts\python.exe"
 $crawlerPython = Join-Path $projectRoot "crawler\.venv\Scripts\python.exe"
