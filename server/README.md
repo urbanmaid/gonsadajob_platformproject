@@ -30,6 +30,48 @@ python scripts/make_dev_token.py --admin  # 관리자 토큰
 
 출력된 토큰을 `/docs` 오른쪽 위 **Authorize** 버튼에 붙여 넣으면 된다.
 
+## Supabase 연결
+
+로컬 SQLite 대신 팀 공용 DB(Supabase PostgreSQL)를 쓸 때의 순서. 키와 비밀번호는 `server/.env`에만 넣고 채팅·노션·코드에 붙이지 않는다.
+
+### 1. 프로젝트 만들기
+supabase.com → New project
+- Region: **Northeast Asia (Seoul)**
+- Database Password: 영문·숫자로만 길게 (특수문자는 연결 주소에서 오류가 나기 쉬움). 비밀번호 관리자에 보관
+
+### 2. 서버 `.env` 채우기
+
+| 항목 | 어디서 복사하나 |
+|---|---|
+| `DATABASE_URL` | 상단 **Connect** → **Session pooler** 주소 (포트 5432). `[YOUR-PASSWORD]`를 DB 비밀번호로 교체 |
+| `SUPABASE_URL` | Project Settings → Data API → **Project URL** (`https://<project-ref>.supabase.co`) |
+| `JWT_SECRET` | Project Settings → JWT Keys → **Legacy JWT secret**. 새 서명 키(ES256)만 쓰는 프로젝트면 **비워 둔다** |
+| `SUPABASE_SERVICE_ROLE_KEY` | Project Settings → API Keys → Legacy API keys → **service_role** (회원 탈퇴 시 로그인 계정 삭제용, 선택) |
+
+> `JWT_SECRET`을 `.env.example`의 예시 값 그대로 두면 누구나 로그인 토큰을 위조할 수 있다. Supabase에 연결할 때는 반드시 바꾸거나 비울 것.
+
+### 3. 테이블 만들기
+```bash
+uvicorn app.main:app --reload      # AUTO_CREATE_TABLES=true라 시작할 때 테이블이 생성됨
+```
+대시보드 Table Editor에 `notices`, `user_profiles` 등 13개 테이블이 보이면 성공.
+(선택) `python scripts/seed_dev_data.py`로 샘플 공지 6건을 넣을 수 있다.
+
+### 4. 보안 SQL 실행 (SQL Editor, 순서대로)
+1. `sql/01_enable_rls.sql` — 모든 테이블 RLS 켜기. 결과의 `rls_enabled`가 전부 `true`인지 확인
+2. `sql/02_crawler_role.sql` — 크롤러 전용 계정 `crawler` 생성
+3. 크롤러 비밀번호 설정 (이 줄은 파일로 저장하지 않는다)
+   ```sql
+   ALTER ROLE crawler WITH PASSWORD '영문과숫자로된긴비밀번호';
+   ```
+
+테이블을 새로 추가하면 `01_enable_rls.sql`을 다시 실행한다.
+
+### 5. 팀원에게 전달할 것
+- **프론트엔드:** Project URL, **anon(publishable) key** — 브라우저에 노출돼도 되는 키. RLS로 테이블은 막혀 있고 로그인에만 쓰인다
+- **크롤러·AI:** Session pooler 주소에서 사용자 이름을 `crawler.<project-ref>`로, 비밀번호를 crawler 비밀번호로 바꾼 주소
+- **절대 전달하지 않는 것:** DB 비밀번호(postgres), service_role key, JWT secret
+
 ## API 요약 (`/api/v1`)
 
 | 구분 | 메서드·경로 | 설명 | 로그인 |
@@ -56,6 +98,8 @@ python scripts/make_dev_token.py --admin  # 관리자 토큰
 ## 다른 파트와 맞출 것
 
 **크롤러·AI (박기훈)** — 공통 DB 테이블에 직접 쓰는 방식
+
+- 접속은 전용 계정 `crawler`로 한다 (공지·분석 관련 8개 테이블만 접근 가능, 위 'Supabase 연결' 5번 참고)
 
 - `notices`: `(board_id, source_key)`로 중복 판단, 본문이 바뀌면 `content_hash` 갱신
 - `notice_analysis`: 공지당 `is_current=true`는 한 건만. 새 분석 확정 시 기존 건을 false로
@@ -88,5 +132,6 @@ server/
 │  ├─ services/          공지 조회, 참여 가능 여부 판정
 │  └─ routers/           API 엔드포인트
 ├─ scripts/              개발용 토큰 발급, 샘플 데이터
+├─ sql/                  Supabase 보안 설정 SQL (RLS, 크롤러 계정)
 └─ tests/                pytest
 ```
