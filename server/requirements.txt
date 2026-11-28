@@ -7,6 +7,4 @@ pydantic-settings>=2.11
 pyjwt[crypto]>=2.10
 httpx>=0.28
 pytest>=8.4
-
-# Supabase(PostgreSQL)에 연결할 때만 주석 해제
-# psycopg[binary]>=3.2.10
+psycopg[binary]>=3.2.10   # Supabase(PostgreSQL) 연결용 드라이버
