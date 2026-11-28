@@ -1,0 +1,1937 @@
+{
+  "checked_at": "2026-11-29",
+  "method": "공식 대학 안내 24개 페이지의 학과 카드 전수 확인 + 연결된 고유 홈페이지 104곳과 공지 후보 링크 234개 브라우저 열람. HTTP 크롤러의 robots/상세 접근 성공을 의미하지 않음.",
+  "sites": [
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/koreanlitnlang",
+      "final_url": "https://cms.dankook.ac.kr/web/koreanlitnlang",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/koreanlitnlang/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/koreanlitnlang/-7",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/history",
+      "final_url": "https://cms.dankook.ac.kr/web/history",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/history/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/history/-17",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/philosophy",
+      "final_url": "https://cms.dankook.ac.kr/web/philosophy",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/philosophy/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/bahumanities",
+      "final_url": "https://cms.dankook.ac.kr/web/bahumanities",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/bahumanities/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/bahumanities/-11",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://law.dankook.ac.kr/web/law",
+      "final_url": "https://law.dankook.ac.kr/web/law",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "법과대학 공지",
+          "list_url": "https://law.dankook.ac.kr/web/law/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업게시판",
+          "list_url": "https://law.dankook.ac.kr/web/law/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/polisci",
+      "final_url": "https://cms.dankook.ac.kr/web/polisci",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/polisci/%EC%9E%AC%ED%95%99%EC%83%9D1",
+          "status": "LOGIN_REQUIRED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkupa",
+      "final_url": "https://cms.dankook.ac.kr/web/dkupa",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkupa/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/urban-real",
+      "final_url": "https://cms.dankook.ac.kr/web/urban-real",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/urban-real/-7",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/urban-real/-8",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학",
+          "list_url": "https://cms.dankook.ac.kr/web/urban-real/%EC%9E%A5%ED%95%99",
+          "status": "EMPTY",
+          "observed_rows": 1
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/comm",
+      "final_url": "https://cms.dankook.ac.kr/web/comm",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/comm/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 12
+        },
+        {
+          "name": "취업공지",
+          "list_url": "https://cms.dankook.ac.kr/web/comm/-14",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/counseling",
+      "final_url": "https://cms.dankook.ac.kr/web/counseling",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/counseling/notice_c",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/econ",
+      "final_url": "https://cms.dankook.ac.kr/web/econ",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-5",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/econ/-20",
+          "status": "AVAILABLE",
+          "observed_rows": 15
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/trade",
+      "final_url": "https://cms.dankook.ac.kr/web/trade",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/trade/-5",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/trade/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학과 장학공지",
+          "list_url": "https://cms.dankook.ac.kr/web/trade/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학과 취업공지",
+          "list_url": "https://cms.dankook.ac.kr/web/trade/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 3
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/bu",
+      "final_url": "https://cms.dankook.ac.kr/web/bu",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학사 공지사항(학부)",
+          "list_url": "https://cms.dankook.ac.kr/web/bu/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/bu/-14",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "기타 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/bu/-2",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/acc",
+      "final_url": "https://cms.dankook.ac.kr/web/acc",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학사 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학정보",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-7",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-8",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "단현재 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-17",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "기타 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/acc/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/industrialm",
+      "final_url": "https://cms.dankook.ac.kr/web/industrialm",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/industrialm/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/eee",
+      "final_url": "https://cms.dankook.ac.kr/web/eee",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/eee/-51",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원공지",
+          "list_url": "https://cms.dankook.ac.kr/web/eee/-52",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/eee/-53",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/sce",
+      "final_url": "https://cms.dankook.ac.kr/web/sce",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/sce/-1",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/sce/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/polymer",
+      "final_url": "https://cms.dankook.ac.kr/web/polymer",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학부공지",
+          "list_url": "https://cms.dankook.ac.kr/web/polymer/-67",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/polymer/-5",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "채용공고",
+          "list_url": "https://cms.dankook.ac.kr/web/polymer/-1",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/fiber",
+      "final_url": "https://cms.dankook.ac.kr/web/fiber",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학부 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/fiber/-16",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/fiber/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        },
+        {
+          "name": "채용정보/행사/특강",
+          "list_url": "https://cms.dankook.ac.kr/web/fiber/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkucee",
+      "final_url": "https://cms.dankook.ac.kr/web/dkucee",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkucee/notice",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업 마당(재학생 전용)",
+          "list_url": "https://cms.dankook.ac.kr/web/dkucee/-44",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업·공모전·참여",
+          "list_url": "https://cms.dankook.ac.kr/web/dkucee/careers",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/me",
+      "final_url": "https://cms.dankook.ac.kr/web/me",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/me/-79",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/me/-35",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/me/q-a",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/chem",
+      "final_url": "https://cms.dankook.ac.kr/web/chem",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/chem/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "장학금 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/chem/-48",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/chem/-49",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/chem/-14",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/archi",
+      "final_url": "https://cms.dankook.ac.kr/web/archi",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "건축학과 학사",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "건축학전공 장학",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "건축학과 대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "건축공학과 학사",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-24",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "건축공학과 대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/archi/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/sw",
+      "final_url": "https://cms.dankook.ac.kr/web/sw",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/sw/-1",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/sw/-19",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/ace",
+      "final_url": "https://cms.dankook.ac.kr/web/ace",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "취업게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/ace/-39",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "일반취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/ace/-40",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/ace/notice",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkustat",
+      "final_url": "https://cms.dankook.ac.kr/web/dkustat",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dkustat/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "채용정보",
+          "list_url": "https://cms.dankook.ac.kr/web/dkustat/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/indsec",
+      "final_url": "https://cms.dankook.ac.kr/web/indsec",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/indsec/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학",
+          "list_url": "https://cms.dankook.ac.kr/web/indsec/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 14
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/indsec/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/ai",
+      "final_url": "https://cms.dankook.ac.kr/web/ai",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/ai/-41",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "채용공지",
+          "list_url": "https://cms.dankook.ac.kr/web/ai/-43",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/swcon",
+      "final_url": "https://cms.dankook.ac.kr/web/swcon",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학부공지",
+          "list_url": "https://cms.dankook.ac.kr/web/swcon/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대외활동 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/swcon/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "채용정보",
+          "list_url": "https://cms.dankook.ac.kr/web/swcon/-14",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://ai-architecture-website.pages.dev/",
+      "final_url": "https://ai-architecture-website.pages.dev/",
+      "homepage_status": "AVAILABLE",
+      "boards": []
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/hankyo",
+      "final_url": "https://cms.dankook.ac.kr/web/hankyo",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/hankyo/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        },
+        {
+          "name": "취업자료",
+          "list_url": "https://cms.dankook.ac.kr/web/hankyo/-34",
+          "status": "EMPTY",
+          "observed_rows": 2
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/specialedu",
+      "final_url": "https://cms.dankook.ac.kr/web/specialedu",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/specialedu/%ED%95%99%EA%B3%BC-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/specialedu/%ED%95%99%EC%83%9D%ED%9A%8C-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/mathedu/home",
+      "final_url": "https://cms.dankook.ac.kr/web/mathedu/home",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/mathedu/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업공고",
+          "list_url": "https://cms.dankook.ac.kr/web/mathedu/-19",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/mathedu/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 3
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/sciedu",
+      "final_url": "https://cms.dankook.ac.kr/web/sciedu",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "대학원 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/sciedu/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 2
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/sciedu/%EB%8C%80%ED%95%99%EC%9B%90-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "EMPTY",
+          "observed_rows": 2
+        },
+        {
+          "name": "안내 및 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/sciedu/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "비교과 홍보 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/sciedu/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/danche",
+      "final_url": "https://cms.dankook.ac.kr/web/danche",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학생회 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/danche/-4",
+          "status": "EMPTY",
+          "observed_rows": 2
+        },
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/danche/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://dankook.ac.kr/web/teachertraining",
+      "final_url": "https://dankook.ac.kr/web/teachertraining",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지 및 Q&A",
+          "list_url": "https://dankook.ac.kr/web/teachertraining/-q-a",
+          "status": "EMPTY",
+          "observed_rows": 2
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/ceramicarts",
+      "final_url": "https://cms.dankook.ac.kr/web/ceramicarts",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학사공지",
+          "list_url": "https://cms.dankook.ac.kr/web/ceramicarts/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 5
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/ceramicarts/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://www.dankook.ac.kr/web/communicationdesign",
+      "final_url": "https://www.dankook.ac.kr/web/communicationdesign",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://www.dankook.ac.kr/web/communicationdesign/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/fashion",
+      "final_url": "https://cms.dankook.ac.kr/web/fashion",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/fashion/-6",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/performance-film",
+      "final_url": "https://cms.dankook.ac.kr/web/performance-film",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/performance-film/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dance",
+      "final_url": "https://cms.dankook.ac.kr/web/dance",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학사공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dance/-16",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dance/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/piano",
+      "final_url": "https://cms.dankook.ac.kr/web/piano",
+      "homepage_status": "AVAILABLE",
+      "boards": []
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/orchestral-instrument",
+      "final_url": "https://cms.dankook.ac.kr/web/orchestral-instrument",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/orchestral-instrument/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/vocalmusic",
+      "final_url": "https://cms.dankook.ac.kr/web/vocalmusic",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/vocalmusic/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/composition",
+      "final_url": "https://cms.dankook.ac.kr/web/composition",
+      "homepage_status": "AVAILABLE",
+      "boards": []
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/koreamusic",
+      "final_url": "https://cms.dankook.ac.kr/web/koreamusic",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/koreamusic/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/ib",
+      "final_url": "https://cms.dankook.ac.kr/web/ib",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항/Notice",
+          "list_url": "https://cms.dankook.ac.kr/web/ib/notices",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        },
+        {
+          "name": "채용정보/Recruitment Board",
+          "list_url": "https://cms.dankook.ac.kr/web/ib/career-opportunities",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/mobilesystems",
+      "final_url": "https://cms.dankook.ac.kr/web/mobilesystems",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/mobilesystems/-8",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/mobilesystems/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/gce",
+      "final_url": "https://cms.dankook.ac.kr/web/gce",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/gce/-41",
+          "status": "AVAILABLE",
+          "observed_rows": 3
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/china",
+      "final_url": "https://cms.dankook.ac.kr/web/china",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/china/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/japanese",
+      "final_url": "https://cms.dankook.ac.kr/web/japanese",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/japanese/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/japanese/-16",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/mongol",
+      "final_url": "https://cms.dankook.ac.kr/web/mongol",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/mongol/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/middleeasternstudies",
+      "final_url": "https://cms.dankook.ac.kr/web/middleeasternstudies",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/middleeasternstudies/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/middleeasternstudies/-19",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/vietnam",
+      "final_url": "https://cms.dankook.ac.kr/web/vietnam",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/vietnam/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/vietnam/-14",
+          "status": "AVAILABLE",
+          "observed_rows": 14
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/german",
+      "final_url": "https://cms.dankook.ac.kr/web/german",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/german/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkfrance",
+      "final_url": "https://cms.dankook.ac.kr/web/dkfrance",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkfrance/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/dkfrance/q-a-",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/spain",
+      "final_url": "https://cms.dankook.ac.kr/web/spain",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/spain/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/russia",
+      "final_url": "https://cms.dankook.ac.kr/web/russia",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/russia/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "주요학사공지",
+          "list_url": "https://cms.dankook.ac.kr/web/russia/q-a-",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/russia/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 14
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/portuguese",
+      "final_url": "https://cms.dankook.ac.kr/web/portuguese",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/portuguese/-2",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/english",
+      "final_url": "https://cms.dankook.ac.kr/web/english",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/english/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 21
+        },
+        {
+          "name": "채용게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/english/q-a-",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/globalhankook",
+      "final_url": "https://cms.dankook.ac.kr/web/globalhankook",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/globalhankook/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/mathematics",
+      "final_url": "https://cms.dankook.ac.kr/web/mathematics",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "수학과게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/mathematics/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        },
+        {
+          "name": "학생회게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/mathematics/-7",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/physics",
+      "final_url": "https://cms.dankook.ac.kr/web/physics",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학사 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/physics/-20",
+          "status": "AVAILABLE",
+          "observed_rows": 9
+        },
+        {
+          "name": "홍보 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/physics/-5",
+          "status": "AVAILABLE",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/chemistry",
+      "final_url": "https://cms.dankook.ac.kr/web/chemistry",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학부 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/chemistry/-1",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/chemistry/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/foodnutrition",
+      "final_url": "https://cms.dankook.ac.kr/web/foodnutrition",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학부 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "일반대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-20",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "교육대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-21",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업",
+          "list_url": "https://cms.dankook.ac.kr/web/foodnutrition/-22",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/mse",
+      "final_url": "https://cms.dankook.ac.kr/web/mse",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/mse/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "장학&취업 정보",
+          "list_url": "https://cms.dankook.ac.kr/web/mse/-25",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/energy",
+      "final_url": "https://cms.dankook.ac.kr/web/energy",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학부 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/energy/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/energy/-11",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학/취업 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/energy/-12",
+          "status": "AVAILABLE",
+          "observed_rows": 13
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkme",
+      "final_url": "https://cms.dankook.ac.kr/web/dkme",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkme/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업/공모/장학",
+          "list_url": "https://cms.dankook.ac.kr/web/dkme/-16",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/pharm",
+      "final_url": "https://cms.dankook.ac.kr/web/pharm",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/pharm/-1",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/crops",
+      "final_url": "https://cms.dankook.ac.kr/web/crops",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/crops/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 7
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/animal",
+      "final_url": "https://cms.dankook.ac.kr/web/animal",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/animal/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkuhort",
+      "final_url": "https://cms.dankook.ac.kr/web/dkuhort",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkuhort/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/dkuhort/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 15
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/landscape",
+      "final_url": "https://cms.dankook.ac.kr/web/landscape",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/landscape/notice",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/biomedical20",
+      "final_url": "https://cms.dankook.ac.kr/web/biomedical20",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/biomedical20/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 10
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/biology",
+      "final_url": "https://cms.dankook.ac.kr/web/biology",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사",
+          "list_url": "https://cms.dankook.ac.kr/web/biology/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/microbiology",
+      "final_url": "https://cms.dankook.ac.kr/web/microbiology",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/microbiology/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "장학 및 취업",
+          "list_url": "https://cms.dankook.ac.kr/web/microbiology/%EC%9E%A5%ED%95%99-%EB%B0%8F-%EC%B7%A8%EC%97%85",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/food",
+      "final_url": "https://cms.dankook.ac.kr/web/food",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/food/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/cosmedmaterials",
+      "final_url": "https://cms.dankook.ac.kr/web/cosmedmaterials",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/cosmedmaterials/affairs",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/craft",
+      "final_url": "https://cms.dankook.ac.kr/web/craft",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/craft/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 3
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/oriental",
+      "final_url": "https://cms.dankook.ac.kr/web/oriental",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학과공지",
+          "list_url": "https://cms.dankook.ac.kr/web/oriental/-15",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/fineart",
+      "final_url": "https://cms.dankook.ac.kr/web/fineart",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/fineart/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/joso",
+      "final_url": "https://cms.dankook.ac.kr/web/joso",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/joso/-10",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkcw/%EC%9D%BC%EB%B0%98%EC%86%8C%EA%B0%9C",
+      "final_url": "https://cms.dankook.ac.kr/web/dkcw/%EC%9D%BC%EB%B0%98%EC%86%8C%EA%B0%9C",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkcw/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/newmusicdku",
+      "final_url": "https://cms.dankook.ac.kr/web/newmusicdku",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/newmusicdku/-5",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/jazzperformance",
+      "final_url": "https://cms.dankook.ac.kr/web/jazzperformance",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/jazzperformance/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/singersongwriting",
+      "final_url": "https://cms.dankook.ac.kr/web/singersongwriting",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/singersongwriting/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/sports",
+      "final_url": "https://cms.dankook.ac.kr/web/sports",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "채용(취업)공고",
+          "list_url": "https://cms.dankook.ac.kr/web/sports/%EC%B1%84%EC%9A%A9-%EC%B7%A8%EC%97%85-%EA%B3%B5%EA%B3%A0",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/sports/-10",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dsm",
+      "final_url": "https://cms.dankook.ac.kr/web/dsm",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dsm/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/sportsscience",
+      "final_url": "https://cms.dankook.ac.kr/web/sportsscience",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "채용 공고",
+          "list_url": "https://cms.dankook.ac.kr/web/sportsscience/%EC%B1%84%EC%9A%A9-%EA%B3%B5%EA%B3%A0",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/sportsscience/-10",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/int_sports",
+      "final_url": "https://cms.dankook.ac.kr/web/int_sports",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/int_sports/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/taekwondo",
+      "final_url": "https://cms.dankook.ac.kr/web/taekwondo",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/taekwondo/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "http://med.dankook.ac.kr/",
+      "final_url": "https://med.dankook.ac.kr/home",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "전체공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-26",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "교수공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-27",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-28",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원공지",
+          "list_url": "https://med.dankook.ac.kr/web/med/-29",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/publicadm",
+      "final_url": "https://cms.dankook.ac.kr/web/publicadm",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/publicadm/-3",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/publicadm/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dkwelfare",
+      "final_url": "https://cms.dankook.ac.kr/web/dkwelfare",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dkwelfare/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/ere",
+      "final_url": "https://cms.dankook.ac.kr/web/ere",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/ere/-17",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/rokmcms",
+      "final_url": "https://cms.dankook.ac.kr/web/rokmcms",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/rokmcms/-6",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/biomedical",
+      "final_url": "https://cms.dankook.ac.kr/web/biomedical",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "자유게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/biomedical/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/physical_therapy",
+      "final_url": "https://cms.dankook.ac.kr/web/physical_therapy",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "자유게시판(장학 공지 게시)",
+          "list_url": "https://cms.dankook.ac.kr/web/physical_therapy/-16",
+          "status": "AVAILABLE",
+          "observed_rows": 12
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/healthadmin",
+      "final_url": "https://cms.dankook.ac.kr/web/healthadmin",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "보건행정게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/healthadmin/-16",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "채용공고",
+          "list_url": "https://cms.dankook.ac.kr/web/healthadmin/-19",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/healthadmin/-1",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dentalhygiene",
+      "final_url": "https://cms.dankook.ac.kr/web/dentalhygiene",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dentalhygiene/-4",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/dentalhygiene/-18",
+          "status": "AVAILABLE",
+          "observed_rows": 13
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/psychology",
+      "final_url": "https://cms.dankook.ac.kr/web/psychology",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/psychology/-11",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/nursing",
+      "final_url": "https://cms.dankook.ac.kr/web/nursing",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-10",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "취업정보",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/q-a-",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-53",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-50",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "보건복지대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/nursing/-51",
+          "status": "AVAILABLE",
+          "observed_rows": 9
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/dentistry",
+      "final_url": "https://cms.dankook.ac.kr/web/dentistry",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학사공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "장학공지",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/-17",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "학생회 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/%ED%95%99%EC%83%9D%ED%9A%8C-%EA%B2%8C%EC%8B%9C%ED%8C%901",
+          "status": "BOARD_NOT_DISPLAYED",
+          "observed_rows": 0
+        },
+        {
+          "name": "공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/dentistry/-33",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        }
+      ]
+    },
+    {
+      "homepage_url": "https://cms.dankook.ac.kr/web/pharmacy",
+      "final_url": "https://cms.dankook.ac.kr/web/pharmacy",
+      "homepage_status": "AVAILABLE",
+      "boards": [
+        {
+          "name": "학부 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-20",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "대학원 공지사항",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/%EB%8C%80%ED%95%99%EC%9B%90-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD",
+          "status": "AVAILABLE",
+          "observed_rows": 16
+        },
+        {
+          "name": "실무실습 공지",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-10",
+          "status": "ACCESS_DENIED",
+          "observed_rows": 0
+        },
+        {
+          "name": "취업ㆍ모집 공고",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-9",
+          "status": "AVAILABLE",
+          "observed_rows": 11
+        },
+        {
+          "name": "학생회 게시판",
+          "list_url": "https://cms.dankook.ac.kr/web/pharmacy/-13",
+          "status": "AVAILABLE",
+          "observed_rows": 8
+        }
+      ]
+    }
+  ]
+}

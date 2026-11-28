@@ -1,0 +1,146 @@
+[
+  {
+    "campus": "죽전",
+    "name": "문과대학",
+    "url": "https://www.dankook.ac.kr/web/kor/humanities",
+    "department_count": 4
+  },
+  {
+    "campus": "죽전",
+    "name": "법과대학",
+    "url": "https://www.dankook.ac.kr/web/kor/law",
+    "department_count": 1
+  },
+  {
+    "campus": "죽전",
+    "name": "사회과학대학",
+    "url": "https://www.dankook.ac.kr/web/kor/social_sciences",
+    "department_count": 8
+  },
+  {
+    "campus": "죽전",
+    "name": "경영경제대학",
+    "url": "https://www.dankook.ac.kr/web/kor/business_n_economics",
+    "department_count": 5
+  },
+  {
+    "campus": "죽전",
+    "name": "공과대학",
+    "url": "https://www.dankook.ac.kr/web/kor/engineering",
+    "department_count": 9
+  },
+  {
+    "campus": "죽전",
+    "name": "AI융합대학",
+    "url": "https://www.dankook.ac.kr/web/kor/sw_convergence",
+    "department_count": 7
+  },
+  {
+    "campus": "죽전",
+    "name": "사범대학",
+    "url": "https://www.dankook.ac.kr/web/kor/education",
+    "department_count": 6
+  },
+  {
+    "campus": "죽전",
+    "name": "음악·예술대학",
+    "url": "https://www.dankook.ac.kr/web/kor/music-n-arts",
+    "department_count": 12
+  },
+  {
+    "campus": "죽전",
+    "name": "프리무스국제대학",
+    "url": "https://www.dankook.ac.kr/web/kor/primus",
+    "department_count": 6
+  },
+  {
+    "campus": "죽전",
+    "name": "퇴계혁신칼리지",
+    "url": "https://www.dankook.ac.kr/web/kor/toegye-innovation",
+    "department_count": 0
+  },
+  {
+    "campus": "공통",
+    "name": "자유교양대학",
+    "url": "https://www.dankook.ac.kr/web/kor/liberal-arts",
+    "department_count": 0
+  },
+  {
+    "campus": "천안",
+    "name": "외국어대학",
+    "url": "https://www.dankook.ac.kr/web/kor/foreign-languages",
+    "department_count": 12
+  },
+  {
+    "campus": "천안",
+    "name": "과학기술대학",
+    "url": "https://www.dankook.ac.kr/web/kor/science-n-technology",
+    "department_count": 8
+  },
+  {
+    "campus": "천안",
+    "name": "바이오융합대학",
+    "url": "https://www.dankook.ac.kr/web/kor/bio-convergence",
+    "department_count": 9
+  },
+  {
+    "campus": "천안",
+    "name": "예술대학",
+    "url": "https://www.dankook.ac.kr/web/kor/arts",
+    "department_count": 8
+  },
+  {
+    "campus": "천안",
+    "name": "스포츠과학대학",
+    "url": "https://www.dankook.ac.kr/web/kor/sports-science",
+    "department_count": 6
+  },
+  {
+    "campus": "천안",
+    "name": "의과대학",
+    "url": "https://www.dankook.ac.kr/web/kor/medicine",
+    "department_count": 2
+  },
+  {
+    "campus": "천안",
+    "name": "공공인재대학",
+    "url": "https://www.dankook.ac.kr/web/kor/public-service",
+    "department_count": 5
+  },
+  {
+    "campus": "천안",
+    "name": "보건과학대학",
+    "url": "https://www.dankook.ac.kr/web/kor/health-sciences",
+    "department_count": 5
+  },
+  {
+    "campus": "천안",
+    "name": "간호대학",
+    "url": "https://www.dankook.ac.kr/web/kor/nursing",
+    "department_count": 1
+  },
+  {
+    "campus": "천안",
+    "name": "치과대학",
+    "url": "https://www.dankook.ac.kr/web/kor/dentistry",
+    "department_count": 2
+  },
+  {
+    "campus": "천안",
+    "name": "약학대학",
+    "url": "https://www.dankook.ac.kr/web/kor/pharmacy",
+    "department_count": 1
+  },
+  {
+    "campus": "천안",
+    "name": "율곡혁신칼리지",
+    "url": "https://www.dankook.ac.kr/web/kor/yulgok-innovation",
+    "department_count": 0
+  },
+  {
+    "campus": "공통",
+    "name": "융합/연계전공",
+    "url": "https://www.dankook.ac.kr/web/kor/convergence-linked",
+    "department_count": 0
+  }
+]

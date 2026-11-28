@@ -1,0 +1,233 @@
+﻿campus,college,department,status,homepage_status,homepage_url,board_name,board_status,list_url
+죽전,문과대학,국어국문학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/koreanlitnlang,대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/koreanlitnlang/-9
+죽전,문과대학,국어국문학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/koreanlitnlang,학과 공지,AVAILABLE,https://cms.dankook.ac.kr/web/koreanlitnlang/-7
+죽전,문과대학,사학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/history,학과 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/history/-10
+죽전,문과대학,사학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/history,대학원 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/history/-17
+죽전,문과대학,철학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/philosophy,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/philosophy/-10
+죽전,문과대학,영미인문학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/bahumanities,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/bahumanities/-10
+죽전,문과대학,영미인문학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/bahumanities,대학원 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/bahumanities/-11
+죽전,법과대학,법학과,AVAILABLE,AVAILABLE,https://law.dankook.ac.kr/web/law,법과대학 공지,AVAILABLE,https://law.dankook.ac.kr/web/law/-9
+죽전,법과대학,법학과,AVAILABLE,AVAILABLE,https://law.dankook.ac.kr/web/law,취업게시판,AVAILABLE,https://law.dankook.ac.kr/web/law/-13
+죽전,사회과학대학,정치외교학과,LOGIN_REQUIRED,AVAILABLE,https://cms.dankook.ac.kr/web/polisci,공지사항,LOGIN_REQUIRED,https://cms.dankook.ac.kr/web/polisci/%EC%9E%AC%ED%95%99%EC%83%9D1
+죽전,사회과학대학,행정학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkupa,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dkupa/-18
+죽전,사회과학대학,도시계획·부동산학부 도시지역계획학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real/-7
+죽전,사회과학대학,도시계획·부동산학부 도시지역계획학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real/-8
+죽전,사회과학대학,도시계획·부동산학부 도시지역계획학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real,장학,EMPTY,https://cms.dankook.ac.kr/web/urban-real/%EC%9E%A5%ED%95%99
+죽전,사회과학대학,도시계획·부동산학부 부동산학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real/-7
+죽전,사회과학대학,도시계획·부동산학부 부동산학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real/-8
+죽전,사회과학대학,도시계획·부동산학부 부동산학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/urban-real,장학,EMPTY,https://cms.dankook.ac.kr/web/urban-real/%EC%9E%A5%ED%95%99
+죽전,사회과학대학,미디어커뮤니케이션학부 저널리즘전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/comm,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/comm/-10
+죽전,사회과학대학,미디어커뮤니케이션학부 저널리즘전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/comm,취업공지,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/comm/-14
+죽전,사회과학대학,미디어커뮤니케이션학부 영상콘텐츠전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/comm,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/comm/-10
+죽전,사회과학대학,미디어커뮤니케이션학부 영상콘텐츠전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/comm,취업공지,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/comm/-14
+죽전,사회과학대학,미디어커뮤니케이션학부 광고홍보전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/comm,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/comm/-10
+죽전,사회과학대학,미디어커뮤니케이션학부 광고홍보전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/comm,취업공지,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/comm/-14
+죽전,사회과학대학,상담학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/counseling,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/counseling/notice_c
+죽전,경영경제대학,경제학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/econ,학과 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/econ/-18
+죽전,경영경제대학,경제학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/econ,장학 정보,AVAILABLE,https://cms.dankook.ac.kr/web/econ/-12
+죽전,경영경제대학,경제학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/econ,취업 정보,AVAILABLE,https://cms.dankook.ac.kr/web/econ/-21
+죽전,경영경제대학,경제학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/econ,대학원 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/econ/-5
+죽전,경영경제대학,경제학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/econ,학생회 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/econ/-20
+죽전,경영경제대학,무역학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/trade,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/trade/-5
+죽전,경영경제대학,무역학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/trade,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/trade/-6
+죽전,경영경제대학,무역학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/trade,학과 장학공지,AVAILABLE,https://cms.dankook.ac.kr/web/trade/-9
+죽전,경영경제대학,무역학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/trade,학과 취업공지,AVAILABLE,https://cms.dankook.ac.kr/web/trade/-10
+죽전,경영경제대학,경영학부 경영학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/bu,학사 공지사항(학부),AVAILABLE,https://cms.dankook.ac.kr/web/bu/-6
+죽전,경영경제대학,경영학부 경영학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/bu,장학 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/bu/-14
+죽전,경영경제대학,경영학부 경영학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/bu,기타 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/bu/-2
+죽전,경영경제대학,경영학부 회계학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/acc,학사 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/acc/-21
+죽전,경영경제대학,경영학부 회계학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/acc,장학정보,AVAILABLE,https://cms.dankook.ac.kr/web/acc/-7
+죽전,경영경제대학,경영학부 회계학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/acc,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/acc/-8
+죽전,경영경제대학,경영학부 회계학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/acc,학생회 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/acc/-13
+죽전,경영경제대학,경영학부 회계학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/acc,단현재 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/acc/-17
+죽전,경영경제대학,경영학부 회계학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/acc,기타 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/acc/-22
+죽전,경영경제대학,산업경영학과(야),AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/industrialm,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/industrialm/-4
+죽전,공과대학,전자전기공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/eee,학과공지,AVAILABLE,https://cms.dankook.ac.kr/web/eee/-51
+죽전,공과대학,전자전기공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/eee,대학원공지,AVAILABLE,https://cms.dankook.ac.kr/web/eee/-52
+죽전,공과대학,전자전기공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/eee,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/eee/-53
+죽전,공과대학,융합반도체공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/sce,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/sce/-1
+죽전,공과대학,융합반도체공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/sce,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/sce/-4
+죽전,공과대학,고분자시스템공학부 고분자공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/polymer,학부공지,AVAILABLE,https://cms.dankook.ac.kr/web/polymer/-67
+죽전,공과대학,고분자시스템공학부 고분자공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/polymer,대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/polymer/-5
+죽전,공과대학,고분자시스템공학부 고분자공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/polymer,채용공고,AVAILABLE,https://cms.dankook.ac.kr/web/polymer/-1
+죽전,공과대학,고분자시스템공학부 융합소재공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/fiber,학부 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/fiber/-16
+죽전,공과대학,고분자시스템공학부 융합소재공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/fiber,대학원 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/fiber/-10
+죽전,공과대학,고분자시스템공학부 융합소재공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/fiber,채용정보/행사/특강,AVAILABLE,https://cms.dankook.ac.kr/web/fiber/-22
+죽전,공과대학,인프라건설공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkucee,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dkucee/notice
+죽전,공과대학,인프라건설공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkucee,취업 마당(재학생 전용),AVAILABLE,https://cms.dankook.ac.kr/web/dkucee/-44
+죽전,공과대학,인프라건설공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkucee,취업·공모전·참여,AVAILABLE,https://cms.dankook.ac.kr/web/dkucee/careers
+죽전,공과대학,기계공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/me,학과 공지,AVAILABLE,https://cms.dankook.ac.kr/web/me/-79
+죽전,공과대학,기계공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/me,대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/me/-35
+죽전,공과대학,기계공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/me,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/me/q-a
+죽전,공과대학,화학공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/chem,학과 공지,AVAILABLE,https://cms.dankook.ac.kr/web/chem/-10
+죽전,공과대학,화학공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/chem,장학금 공지,AVAILABLE,https://cms.dankook.ac.kr/web/chem/-48
+죽전,공과대학,화학공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/chem,대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/chem/-49
+죽전,공과대학,화학공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/chem,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/chem/-14
+죽전,공과대학,건축학부 건축학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축학과 학사,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-18
+죽전,공과대학,건축학부 건축학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축학전공 장학,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-12
+죽전,공과대학,건축학부 건축학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축학과 대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-21
+죽전,공과대학,건축학부 건축학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축공학과 학사,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-24
+죽전,공과대학,건축학부 건축학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축공학과 대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-22
+죽전,공과대학,건축학부 건축공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축학과 학사,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-18
+죽전,공과대학,건축학부 건축공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축학전공 장학,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-12
+죽전,공과대학,건축학부 건축공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축학과 대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-21
+죽전,공과대학,건축학부 건축공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축공학과 학사,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-24
+죽전,공과대학,건축학부 건축공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/archi,건축공학과 대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/archi/-22
+죽전,AI융합대학,소프트웨어학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/sw,학과공지,AVAILABLE,https://cms.dankook.ac.kr/web/sw/-1
+죽전,AI융합대학,소프트웨어학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/sw,대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/sw/-19
+죽전,AI융합대학,컴퓨터공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/ace,취업게시판,AVAILABLE,https://cms.dankook.ac.kr/web/ace/-39
+죽전,AI융합대학,컴퓨터공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/ace,일반취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/ace/-40
+죽전,AI융합대학,컴퓨터공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/ace,게시판,AVAILABLE,https://cms.dankook.ac.kr/web/ace/notice
+죽전,AI융합대학,통계데이터사이언스학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkustat,학과 공지,AVAILABLE,https://cms.dankook.ac.kr/web/dkustat/-6
+죽전,AI융합대학,통계데이터사이언스학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkustat,채용정보,AVAILABLE,https://cms.dankook.ac.kr/web/dkustat/-12
+죽전,AI융합대학,사이버보안학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/indsec,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/indsec/-4
+죽전,AI융합대학,사이버보안학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/indsec,장학,AVAILABLE,https://cms.dankook.ac.kr/web/indsec/-22
+죽전,AI융합대학,사이버보안학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/indsec,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/indsec/-12
+죽전,AI융합대학,인공지능학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/ai,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/ai/-41
+죽전,AI융합대학,인공지능학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/ai,채용공지,AVAILABLE,https://cms.dankook.ac.kr/web/ai/-43
+죽전,AI융합대학,SW융합학부,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/swcon,학부공지,AVAILABLE,https://cms.dankook.ac.kr/web/swcon/-6
+죽전,AI융합대학,SW융합학부,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/swcon,대외활동 공지,AVAILABLE,https://cms.dankook.ac.kr/web/swcon/-13
+죽전,AI융합대학,SW융합학부,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/swcon,채용정보,AVAILABLE,https://cms.dankook.ac.kr/web/swcon/-14
+죽전,AI융합대학,AI건축융합학과,NO_NOTICE_LINK,AVAILABLE,https://ai-architecture-website.pages.dev/,,,
+죽전,사범대학,한문교육과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/hankyo,학과 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/hankyo/-10
+죽전,사범대학,한문교육과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/hankyo,취업자료,EMPTY,https://cms.dankook.ac.kr/web/hankyo/-34
+죽전,사범대학,특수교육과,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/specialedu,학과 공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/specialedu/%ED%95%99%EA%B3%BC-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,사범대학,특수교육과,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/specialedu,학생회 공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/specialedu/%ED%95%99%EC%83%9D%ED%9A%8C-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,사범대학,수학교육과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/mathedu/home,학과공지,AVAILABLE,https://cms.dankook.ac.kr/web/mathedu/-10
+죽전,사범대학,수학교육과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/mathedu/home,취업공고,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/mathedu/-19
+죽전,사범대학,수학교육과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/mathedu/home,학생회 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/mathedu/-21
+죽전,사범대학,과학교육과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/sciedu,대학원 게시판,AVAILABLE,https://cms.dankook.ac.kr/web/sciedu/-21
+죽전,사범대학,과학교육과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/sciedu,대학원 공지사항,EMPTY,https://cms.dankook.ac.kr/web/sciedu/%EB%8C%80%ED%95%99%EC%9B%90-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,사범대학,과학교육과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/sciedu,안내 및 공지,AVAILABLE,https://cms.dankook.ac.kr/web/sciedu/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,사범대학,과학교육과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/sciedu,비교과 홍보 게시판,AVAILABLE,https://cms.dankook.ac.kr/web/sciedu/-10
+죽전,사범대학,체육교육과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/danche,학생회 공지사항,EMPTY,https://cms.dankook.ac.kr/web/danche/-4
+죽전,사범대학,체육교육과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/danche,학과 공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/danche/-10
+죽전,사범대학,교직교육과,AVAILABLE,AVAILABLE,https://dankook.ac.kr/web/teachertraining,공지 및 Q&A,EMPTY,https://dankook.ac.kr/web/teachertraining/-q-a
+죽전,음악·예술대학,도예과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/ceramicarts,학사공지,AVAILABLE,https://cms.dankook.ac.kr/web/ceramicarts/-6
+죽전,음악·예술대학,도예과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/ceramicarts,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/ceramicarts/-4
+죽전,음악·예술대학,디자인학부 커뮤니케이션디자인전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://www.dankook.ac.kr/web/communicationdesign,공지사항,BOARD_NOT_DISPLAYED,https://www.dankook.ac.kr/web/communicationdesign/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,음악·예술대학,디자인학부 패션산업디자인전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/fashion,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/fashion/-6
+죽전,음악·예술대학,공연영화학부 연극전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/performance-film,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/performance-film/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,음악·예술대학,공연영화학부 영화전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/performance-film,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/performance-film/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,음악·예술대학,공연영화학부 뮤지컬전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/performance-film,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/performance-film/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,음악·예술대학,무용과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dance,학사공지,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/dance/-16
+죽전,음악·예술대학,무용과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dance,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dance/-10
+죽전,음악·예술대학,음악학부 피아노전공,NO_NOTICE_LINK,AVAILABLE,https://cms.dankook.ac.kr/web/piano,,,
+죽전,음악·예술대학,음악학부 관현악전공,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/orchestral-instrument,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/orchestral-instrument/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,음악·예술대학,음악학부 성악전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/vocalmusic,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/vocalmusic/-10
+죽전,음악·예술대학,음악학부 작곡전공,NO_NOTICE_LINK,AVAILABLE,https://cms.dankook.ac.kr/web/composition,,,
+죽전,음악·예술대학,음악학부 국악전공,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/koreamusic,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/koreamusic/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+죽전,프리무스국제대학,국제경영학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/ib,공지사항/Notice,AVAILABLE,https://cms.dankook.ac.kr/web/ib/notices
+죽전,프리무스국제대학,국제경영학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/ib,채용정보/Recruitment Board,AVAILABLE,https://cms.dankook.ac.kr/web/ib/career-opportunities
+죽전,프리무스국제대학,모바일시스템공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/mobilesystems,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/mobilesystems/-8
+죽전,프리무스국제대학,모바일시스템공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/mobilesystems,취업 정보,AVAILABLE,https://cms.dankook.ac.kr/web/mobilesystems/-12
+죽전,프리무스국제대학,바이오소재융합공학과,HOMEPAGE_NOT_LISTED,HOMEPAGE_NOT_LISTED,,,,
+죽전,프리무스국제대학,한국학과,HOMEPAGE_NOT_LISTED,HOMEPAGE_NOT_LISTED,,,,
+죽전,프리무스국제대학,연기영상예술학과,HOMEPAGE_NOT_LISTED,HOMEPAGE_NOT_LISTED,,,,
+죽전,프리무스국제대학,글로벌기초교육학부,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/gce,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/gce/-41
+천안,외국어대학,아시아중동학부 중국학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/china,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/china/-10
+천안,외국어대학,아시아중동학부 일본학전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/japanese,학과 공지,AVAILABLE,https://cms.dankook.ac.kr/web/japanese/-6
+천안,외국어대학,아시아중동학부 일본학전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/japanese,취업정보,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/japanese/-16
+천안,외국어대학,아시아중동학부 몽골학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/mongol,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/mongol/-10
+천안,외국어대학,아시아중동학부 중동학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/middleeasternstudies,공지게시판,AVAILABLE,https://cms.dankook.ac.kr/web/middleeasternstudies/-18
+천안,외국어대학,아시아중동학부 중동학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/middleeasternstudies,취업게시판,AVAILABLE,https://cms.dankook.ac.kr/web/middleeasternstudies/-19
+천안,외국어대학,아시아중동학부 베트남학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/vietnam,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/vietnam/-13
+천안,외국어대학,아시아중동학부 베트남학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/vietnam,취업 정보,AVAILABLE,https://cms.dankook.ac.kr/web/vietnam/-14
+천안,외국어대학,유럽중남미학부 독일학전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/german,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/german/-10
+천안,외국어대학,유럽중남미학부 프랑스학전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dkfrance,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dkfrance/-10
+천안,외국어대학,유럽중남미학부 프랑스학전공,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dkfrance,취업정보,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/dkfrance/q-a-
+천안,외국어대학,유럽중남미학부 스페인중남미학전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/spain,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/spain/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,외국어대학,유럽중남미학부 러시아학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/russia,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/russia/-10
+천안,외국어대학,유럽중남미학부 러시아학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/russia,주요학사공지,AVAILABLE,https://cms.dankook.ac.kr/web/russia/q-a-
+천안,외국어대학,유럽중남미학부 러시아학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/russia,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/russia/-6
+천안,외국어대학,유럽중남미학부 포르투갈브라질학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/portuguese,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/portuguese/-2
+천안,외국어대학,영어과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/english,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/english/-10
+천안,외국어대학,영어과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/english,채용게시판,AVAILABLE,https://cms.dankook.ac.kr/web/english/q-a-
+천안,외국어대학,글로벌한국어과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/globalhankook,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/globalhankook/-13
+천안,과학기술대학,수학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/mathematics,수학과게시판,AVAILABLE,https://cms.dankook.ac.kr/web/mathematics/-21
+천안,과학기술대학,수학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/mathematics,학생회게시판,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/mathematics/-7
+천안,과학기술대학,물리학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/physics,학사 게시판,AVAILABLE,https://cms.dankook.ac.kr/web/physics/-20
+천안,과학기술대학,물리학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/physics,홍보 게시판,AVAILABLE,https://cms.dankook.ac.kr/web/physics/-5
+천안,과학기술대학,화학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/chemistry,학부 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/chemistry/-1
+천안,과학기술대학,화학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/chemistry,대학원 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/chemistry/-4
+천안,과학기술대학,식품영양학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/foodnutrition,학부 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/foodnutrition/-10
+천안,과학기술대학,식품영양학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/foodnutrition,일반대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/foodnutrition/-20
+천안,과학기술대학,식품영양학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/foodnutrition,교육대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/foodnutrition/-21
+천안,과학기술대학,식품영양학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/foodnutrition,취업,AVAILABLE,https://cms.dankook.ac.kr/web/foodnutrition/-22
+천안,과학기술대학,신소재공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/mse,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/mse/-10
+천안,과학기술대학,신소재공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/mse,장학&취업 정보,AVAILABLE,https://cms.dankook.ac.kr/web/mse/-25
+천안,과학기술대학,에너지공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/energy,학부 공지,AVAILABLE,https://cms.dankook.ac.kr/web/energy/-10
+천안,과학기술대학,에너지공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/energy,대학원 공지,AVAILABLE,https://cms.dankook.ac.kr/web/energy/-11
+천안,과학기술대학,에너지공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/energy,장학/취업 공지,AVAILABLE,https://cms.dankook.ac.kr/web/energy/-12
+천안,과학기술대학,경영공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkme,학과 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dkme/-4
+천안,과학기술대학,경영공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkme,취업/공모/장학,AVAILABLE,https://cms.dankook.ac.kr/web/dkme/-16
+천안,과학기술대학,제약공학과,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/pharm,게시판,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/pharm/-1
+천안,바이오융합대학,생명공학부 식량생명공학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/crops,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/crops/-10
+천안,바이오융합대학,생명공학부 동물생명공학전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/animal,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/animal/-10
+천안,바이오융합대학,생명공학부 환경원예학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkuhort,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dkuhort/-10
+천안,바이오융합대학,생명공학부 환경원예학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkuhort,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/dkuhort/-9
+천안,바이오융합대학,생명공학부 녹지조경학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/landscape,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/landscape/notice
+천안,바이오융합대학,의생명과학부 의생명시스템학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/biomedical20,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/biomedical20/-4
+천안,바이오융합대학,의생명과학부 생명과학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/biology,공지사,AVAILABLE,https://cms.dankook.ac.kr/web/biology/-10
+천안,바이오융합대학,의생명과학부 미생물학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/microbiology,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/microbiology/-10
+천안,바이오융합대학,의생명과학부 미생물학전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/microbiology,장학 및 취업,AVAILABLE,https://cms.dankook.ac.kr/web/microbiology/%EC%9E%A5%ED%95%99-%EB%B0%8F-%EC%B7%A8%EC%97%85
+천안,바이오융합대학,식품공학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/food,공지게시판,AVAILABLE,https://cms.dankook.ac.kr/web/food/-10
+천안,바이오융합대학,코스메디컬소재학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/cosmedmaterials,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/cosmedmaterials/affairs
+천안,예술대학,미술학부 공예전공,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/craft,학과공지,AVAILABLE,https://cms.dankook.ac.kr/web/craft/-10
+천안,예술대학,미술학부 동양화전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/oriental,학과공지,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/oriental/-15
+천안,예술대학,미술학부 서양화전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/fineart,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/fineart/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,예술대학,미술학부 조소전공,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/joso,공지게시판,ACCESS_DENIED,https://cms.dankook.ac.kr/web/joso/-10
+천안,예술대학,문예창작과,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/dkcw/%EC%9D%BC%EB%B0%98%EC%86%8C%EA%B0%9C,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/dkcw/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,예술대학,뉴뮤직학부 뮤직테크놀러지전공,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/newmusicdku,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/newmusicdku/-5
+천안,예술대학,뉴뮤직학부 재즈퍼포먼스전공,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/jazzperformance,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/jazzperformance/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,예술대학,뉴뮤직학부 싱어송라이팅전공,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/singersongwriting,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/singersongwriting/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,스포츠과학대학,생활체육학과,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/sports,채용(취업)공고,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/sports/%EC%B1%84%EC%9A%A9-%EC%B7%A8%EC%97%85-%EA%B3%B5%EA%B3%A0
+천안,스포츠과학대학,생활체육학과,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/sports,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/sports/-10
+천안,스포츠과학대학,스포츠경영학과,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/dsm,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/dsm/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,스포츠과학대학,국제스포츠학부 운동처방재활전공,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/sportsscience,채용 공고,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/sportsscience/%EC%B1%84%EC%9A%A9-%EA%B3%B5%EA%B3%A0
+천안,스포츠과학대학,국제스포츠학부 운동처방재활전공,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/sportsscience,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/sportsscience/-10
+천안,스포츠과학대학,국제스포츠학부 국제스포츠전공,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/int_sports,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/int_sports/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,스포츠과학대학,국제스포츠학부 태권도전공,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/taekwondo,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/taekwondo/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,스포츠과학대학,국제스포츠학부 골프전공,HOMEPAGE_NOT_LISTED,HOMEPAGE_NOT_LISTED,,,,
+천안,의과대학,의예과,AVAILABLE,AVAILABLE,http://med.dankook.ac.kr/,전체공지,AVAILABLE,https://med.dankook.ac.kr/web/med/-26
+천안,의과대학,의예과,AVAILABLE,AVAILABLE,http://med.dankook.ac.kr/,교수공지,AVAILABLE,https://med.dankook.ac.kr/web/med/-27
+천안,의과대학,의예과,AVAILABLE,AVAILABLE,http://med.dankook.ac.kr/,학생공지,AVAILABLE,https://med.dankook.ac.kr/web/med/-28
+천안,의과대학,의예과,AVAILABLE,AVAILABLE,http://med.dankook.ac.kr/,대학원공지,AVAILABLE,https://med.dankook.ac.kr/web/med/-29
+천안,의과대학,의학과,AVAILABLE,AVAILABLE,http://med.dankook.ac.kr/,전체공지,AVAILABLE,https://med.dankook.ac.kr/web/med/-26
+천안,의과대학,의학과,AVAILABLE,AVAILABLE,http://med.dankook.ac.kr/,교수공지,AVAILABLE,https://med.dankook.ac.kr/web/med/-27
+천안,의과대학,의학과,AVAILABLE,AVAILABLE,http://med.dankook.ac.kr/,학생공지,AVAILABLE,https://med.dankook.ac.kr/web/med/-28
+천안,의과대학,의학과,AVAILABLE,AVAILABLE,http://med.dankook.ac.kr/,대학원공지,AVAILABLE,https://med.dankook.ac.kr/web/med/-29
+천안,공공인재대학,공공정책학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/publicadm,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/publicadm/-3
+천안,공공인재대학,공공정책학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/publicadm,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/publicadm/-4
+천안,공공인재대학,공공정책학과(야),AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/publicadm,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/publicadm/-3
+천안,공공인재대학,공공정책학과(야),AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/publicadm,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/publicadm/-4
+천안,공공인재대학,사회복지학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dkwelfare,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dkwelfare/-10
+천안,공공인재대학,식품자원경제학과,BOARD_NOT_DISPLAYED,AVAILABLE,https://cms.dankook.ac.kr/web/ere,공지사항,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/ere/-17
+천안,공공인재대학,해병대군사학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/rokmcms,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/rokmcms/-6
+천안,보건과학대학,임상병리학과,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/biomedical,자유게시판,ACCESS_DENIED,https://cms.dankook.ac.kr/web/biomedical/%ED%95%99%EB%B6%80-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,보건과학대학,물리치료학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/physical_therapy,자유게시판(장학 공지 게시),AVAILABLE,https://cms.dankook.ac.kr/web/physical_therapy/-16
+천안,보건과학대학,보건행정학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/healthadmin,보건행정게시판,AVAILABLE,https://cms.dankook.ac.kr/web/healthadmin/-16
+천안,보건과학대학,보건행정학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/healthadmin,채용공고,AVAILABLE,https://cms.dankook.ac.kr/web/healthadmin/-19
+천안,보건과학대학,보건행정학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/healthadmin,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/healthadmin/-1
+천안,보건과학대학,치위생학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dentalhygiene,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dentalhygiene/-4
+천안,보건과학대학,치위생학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/dentalhygiene,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/dentalhygiene/-18
+천안,보건과학대학,심리학과,ACCESS_DENIED,AVAILABLE,https://cms.dankook.ac.kr/web/psychology,공지사항,ACCESS_DENIED,https://cms.dankook.ac.kr/web/psychology/-11
+천안,간호대학,간호학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/nursing,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/nursing/-10
+천안,간호대학,간호학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/nursing,취업정보,AVAILABLE,https://cms.dankook.ac.kr/web/nursing/q-a-
+천안,간호대학,간호학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/nursing,게시판,AVAILABLE,https://cms.dankook.ac.kr/web/nursing/-13
+천안,간호대학,간호학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/nursing,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/nursing/-53
+천안,간호대학,간호학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/nursing,대학원 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/nursing/-50
+천안,간호대학,간호학과,AVAILABLE,AVAILABLE,https://cms.dankook.ac.kr/web/nursing,보건복지대학원 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/nursing/-51
+천안,치과대학,치의예과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry,학사공지,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry/-9
+천안,치과대학,치의예과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry,장학공지,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry/-17
+천안,치과대학,치의예과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry,학생회 게시판,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/dentistry/%ED%95%99%EC%83%9D%ED%9A%8C-%EA%B2%8C%EC%8B%9C%ED%8C%901
+천안,치과대학,치의예과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry/-33
+천안,치과대학,치의학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry,학사공지,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry/-9
+천안,치과대학,치의학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry,장학공지,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry/-17
+천안,치과대학,치의학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry,학생회 게시판,BOARD_NOT_DISPLAYED,https://cms.dankook.ac.kr/web/dentistry/%ED%95%99%EC%83%9D%ED%9A%8C-%EA%B2%8C%EC%8B%9C%ED%8C%901
+천안,치과대학,치의학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry,공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/dentistry/-33
+천안,약학대학,약학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/pharmacy,학부 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/pharmacy/-20
+천안,약학대학,약학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/pharmacy,대학원 공지사항,AVAILABLE,https://cms.dankook.ac.kr/web/pharmacy/%EB%8C%80%ED%95%99%EC%9B%90-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD
+천안,약학대학,약학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/pharmacy,실무실습 공지,ACCESS_DENIED,https://cms.dankook.ac.kr/web/pharmacy/-10
+천안,약학대학,약학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/pharmacy,취업ㆍ모집 공고,AVAILABLE,https://cms.dankook.ac.kr/web/pharmacy/-9
+천안,약학대학,약학과,PARTIAL,AVAILABLE,https://cms.dankook.ac.kr/web/pharmacy,학생회 게시판,AVAILABLE,https://cms.dankook.ac.kr/web/pharmacy/-13
